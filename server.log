@@ -1,0 +1,72 @@
+2025/10/16 19:07:00.538111 server.go:190: Servidor RPC iniciando na porta 8932 ...
+2025/10/16 19:07:00.538360 server.go:192: IP principal (rota padrão): 10.127.0.16:8932
+2025/10/16 19:07:00.538479 server.go:195: IP local disponível: 10.127.0.16:8932
+2025/10/16 19:07:53.976382 server.go:213: [CLIENT 1] conectado de 10.127.0.16:45374
+2025/10/16 19:07:53.976729 server.go:221: [CLIENT 1] desconectado (10.127.0.16:45374)
+2025/10/16 19:14:58.139432 server.go:213: [CLIENT 2] conectado de 10.127.0.16:36596
+2025/10/16 19:14:58.139811 server.go:221: [CLIENT 2] desconectado (10.127.0.16:36596)
+2025/10/16 19:21:26.881892 server.go:213: [CLIENT 3] conectado de 10.127.0.16:32864
+2025/10/16 19:21:26.882280 server.go:221: [CLIENT 3] desconectado (10.127.0.16:32864)
+2025/10/16 19:23:59.890911 server.go:190: Servidor RPC iniciando na porta 8932 ...
+2025/10/16 19:23:59.891008 server.go:192: IP principal (rota padrão): 10.127.0.16:8932
+2025/10/16 19:23:59.891102 server.go:195: IP local disponível: 10.127.0.16:8932
+2025/10/16 19:24:33.058171 server.go:190: Servidor RPC iniciando na porta 8932 ...
+2025/10/16 19:24:33.058270 server.go:192: IP principal (rota padrão): 10.127.0.16:8932
+2025/10/16 19:24:33.058351 server.go:195: IP local disponível: 10.127.0.16:8932
+2025/10/16 19:24:54.052162 server.go:213: [CLIENT 1] conectado de 10.127.0.16:33016
+2025/10/16 19:24:54.052345 server.go:57: [RPC] CreateUser called: name="Maria" email="maria@example.com"
+2025/10/16 19:24:54.052368 server.go:67: [RPC] CreateUser ok: id=1 name="Maria" email="maria@example.com"
+2025/10/16 19:24:54.052558 server.go:74: [RPC] GetUser called: id=1
+2025/10/16 19:24:54.052577 server.go:86: [RPC] GetUser ok: id=1 name="Maria" email="maria@example.com"
+2025/10/16 19:24:54.052677 server.go:92: [RPC] ListUsers called
+2025/10/16 19:24:54.052696 server.go:103: [RPC] ListUsers ok: count=1
+2025/10/16 19:24:54.052986 server.go:221: [CLIENT 1] desconectado (10.127.0.16:33016)
+2025/10/16 19:53:53.407574 server.go:190: Servidor RPC iniciando na porta 8932 ...
+2025/10/16 19:53:53.407661 server.go:192: IP principal (rota padrão): 10.127.0.16:8932
+2025/10/16 19:53:53.407730 server.go:195: IP local disponível: 10.127.0.16:8932
+2025/10/16 19:54:08.119512 server.go:213: [CLIENT 1] conectado de 10.127.0.16:46470
+2025/10/16 19:54:08.119845 server.go:221: [CLIENT 1] desconectado (10.127.0.16:46470)
+2025/10/16 19:55:11.361376 server.go:190: Servidor RPC iniciando na porta 8932 ...
+2025/10/16 19:55:11.361512 server.go:192: IP principal (rota padrão): 10.127.0.16:8932
+2025/10/16 19:55:11.361595 server.go:195: IP local disponível: 10.127.0.16:8932
+2025/10/16 19:56:49.062079 server.go:213: [CLIENT 1] conectado de 10.127.0.16:54216
+2025/10/16 19:56:49.062256 server.go:57: [RPC] CreateUser called: name="Maria" email="maria@example.com"
+2025/10/16 19:56:49.062274 server.go:67: [RPC] CreateUser ok: id=1 name="Maria" email="maria@example.com"
+2025/10/16 19:56:49.062469 server.go:74: [RPC] GetUser called: id=1
+2025/10/16 19:56:49.062493 server.go:86: [RPC] GetUser ok: id=1 name="Maria" email="maria@example.com"
+2025/10/16 19:56:49.062594 server.go:92: [RPC] ListUsers called
+2025/10/16 19:56:49.062608 server.go:103: [RPC] ListUsers ok: count=1
+2025/10/16 19:56:49.063046 server.go:221: [CLIENT 1] desconectado (10.127.0.16:54216)
+2025/10/16 20:09:49.325296 server.go:182: listen tcp :8932: bind: address already in use
+2025/10/16 20:10:02.836872 server.go:190: Servidor RPC iniciando na porta 8932 ...
+2025/10/16 20:10:02.836957 server.go:192: IP principal (rota padrão): 10.127.0.16:8932
+2025/10/16 20:10:02.837031 server.go:195: IP local disponível: 10.127.0.16:8932
+2025/10/16 20:10:10.904618 server.go:213: [CLIENT 1] conectado de 10.127.0.16:42442
+2025/10/16 20:10:10.904940 server.go:221: [CLIENT 1] desconectado (10.127.0.16:42442)
+2025/10/16 20:12:24.069073 server.go:213: [CLIENT 2] conectado de 10.127.0.16:49516
+2025/10/16 20:12:24.069454 server.go:221: [CLIENT 2] desconectado (10.127.0.16:49516)
+2025/10/16 20:15:28.422699 server.go:190: Servidor RPC iniciando na porta 8932 ...
+2025/10/16 20:15:28.422791 server.go:192: IP principal (rota padrão): 10.127.0.16:8932
+2025/10/16 20:15:28.422893 server.go:195: IP local disponível: 10.127.0.16:8932
+2025/10/16 20:15:56.707109 server.go:213: [CLIENT 1] conectado de 10.127.0.16:50320
+2025/10/16 20:15:56.707679 server.go:221: [CLIENT 1] desconectado (10.127.0.16:50320)
+2025/10/16 20:20:17.444456 server.go:190: Servidor RPC iniciando na porta 8932 ...
+2025/10/16 20:20:17.444545 server.go:192: IP principal (rota padrão): 10.127.0.16:8932
+2025/10/16 20:20:17.444620 server.go:195: IP local disponível: 10.127.0.16:8932
+2025/10/16 20:20:45.008208 server.go:213: [CLIENT 1] conectado de 10.127.0.16:41712
+2025/10/16 20:20:45.008829 server.go:221: [CLIENT 1] desconectado (10.127.0.16:41712)
+2025/10/16 20:20:58.322728 server.go:213: [CLIENT 2] conectado de 10.127.0.16:55784
+2025/10/16 20:20:58.323074 server.go:221: [CLIENT 2] desconectado (10.127.0.16:55784)
+2025/10/16 20:23:58.457664 server.go:213: [CLIENT 3] conectado de 10.127.0.16:46652
+2025/10/16 20:23:58.458260 server.go:221: [CLIENT 3] desconectado (10.127.0.16:46652)
+2025/10/16 20:27:52.272153 server.go:167: Servidor RPC iniciando na porta 8932 ...
+2025/10/16 20:27:52.272238 server.go:169: IP principal (rota padrão): 10.127.0.16:8932
+2025/10/16 20:27:52.272314 server.go:172: IP local disponível: 10.127.0.16:8932
+2025/10/16 20:28:43.937650 server.go:185: [CLIENT 1] conectado de 10.127.0.16:54598
+2025/10/16 20:28:43.937898 server.go:39: [RPC] CreateUser called: NewPosX=22 NewPosY=28
+2025/10/16 20:28:43.937919 server.go:47: [RPC] CreateUser ok: id=1 pos=(22,28)
+2025/10/16 20:28:43.938144 server.go:52: [RPC] GetUser called: id=1
+2025/10/16 20:28:43.938163 server.go:63: [RPC] GetUser ok: id=1 pos=(22,28)
+2025/10/16 20:28:43.938247 server.go:68: [RPC] ListUsers called
+2025/10/16 20:28:43.938259 server.go:77: [RPC] ListUsers ok: count=1
+2025/10/16 20:28:43.938559 server.go:189: [CLIENT 1] desconectado (10.127.0.16:54598)

@@ -28,6 +28,14 @@ type CreateUserRequest struct {
 	NewPosY int
 }
 
+type SendMessageRequest struct {
+	Message string
+}
+
+type UserMessage struct {
+	Message string
+}
+
 // GetUserRequest: payload para consultar um usuário por ID.
 type GetUserRequest struct{ ID int }
 
@@ -48,6 +56,17 @@ type UserService struct {
 	mu     sync.Mutex   // Protege acesso concorrente ao mapa/nextID
 	users  map[int]User // "Banco" em memória dos usuários
 	nextID int          // Autoincremento de IDs
+}
+
+func (s *UserService) SendMessage(req *SendMessageRequest, resp *UserMessage) error {
+	log.Printf("[RPC] SendMessage called: UserMessage = %s", req.Message)
+
+	s.mu.Lock()
+	defer s.mu.Unlock() // Garante unlock mesmo em erro/panic
+
+	log.Printf("[RPC] SendMessage ok: UserMessage = %s", req.Message)
+	return nil
+
 }
 
 // CreateUser: método RPC para criar usuário.
@@ -199,6 +218,7 @@ func main() {
 	gob.Register(CreateUserRequest{})
 	gob.Register(GetUserRequest{})
 	gob.Register(User{})
+	gob.Register(SendMessageRequest{})
 
 	// 3) Mostra no stdout a "fotografia" dos tipos compilados (debug).
 	debugDumpServerTypes()
@@ -249,6 +269,7 @@ func main() {
 
 		// 9) Atende o cliente em goroutine separada.
 		//    rpc.ServeConn faz o dispatch dos métodos RPC nesta conexão.
+
 		go func(id uint64, c net.Conn) {
 			defer func() {
 				_ = c.Close()

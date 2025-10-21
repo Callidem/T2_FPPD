@@ -1,6 +1,7 @@
 package main
 
 import (
+	"bufio"
 	"encoding/gob"
 	"fmt"
 	"log"
@@ -19,6 +20,13 @@ type User struct {
 	ID   int
 	PosX int
 	PosY int
+}
+
+type GetUserMessage struct {
+	Message string
+}
+type UserMessage struct {
+	Message string
 }
 
 func main() {
@@ -61,5 +69,18 @@ func main() {
 	fmt.Println("Todos os usuários:")
 	for _, it := range all {
 		fmt.Printf("  - ID=%d pos=(%d,%d)\n", it.ID, it.PosX, it.PosY)
+	}
+	for {
+		fmt.Print("Digite uma mensagem: ")
+		reader := bufio.NewReader(os.Stdin)
+		palavra, err := reader.ReadString('\n')
+		fmt.Println(err)
+		req := UserMessage{Message: palavra}
+		var resposta GetUserMessage
+		if err := c.Call("UserService.SendMessage", &req, &resposta); err != nil {
+			log.Fatal("RPC erro(SendMessage):", err)
+		}
+		fmt.Println("Resposta do servidor:", resposta.Message)
+
 	}
 }

@@ -1,0 +1,10 @@
+make
+
+# em um terminal
+cd bin
+./server
+
+
+# nos demais terminais
+cd bin
+./cliente

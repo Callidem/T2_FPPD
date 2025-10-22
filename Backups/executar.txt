@@ -1,0 +1,9 @@
+# no linux
+
+> make
+
+# em um terminal
+> ./server
+
+# nos demais terminais
+> ./cliente

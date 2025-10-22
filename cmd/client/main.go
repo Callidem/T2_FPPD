@@ -270,7 +270,18 @@ func main() {
 	}
 
 	// Conecta ao servidor
+	// Permite especificar endereço do servidor como segundo argumento
+	// Uso: client.exe [mapa.txt] [endereco:porta]
+	// Exemplos:
+	//   client.exe
+	//   client.exe mapa.txt
+	//   client.exe mapa.txt 192.168.1.100:8080
+	//   client.exe mapa.txt servidor.local:8080
 	enderecoServidor := "localhost:8080"
+	if len(os.Args) > 2 {
+		enderecoServidor = os.Args[2]
+		log.Printf("Conectando ao servidor: %s", enderecoServidor)
+	}
 	nomeJogador := fmt.Sprintf("Jogador_%d", time.Now().Unix()%1000)
 
 	cliente, err := NovoClienteJogo(enderecoServidor, nomeJogador, &jogo)

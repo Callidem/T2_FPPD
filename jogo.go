@@ -8,18 +8,18 @@ import (
 
 // Elemento representa qualquer objeto do mapa (parede, personagem, vegetação, etc)
 type Elemento struct {
-	simbolo   rune
-	cor       Cor
-	corFundo  Cor
-	tangivel  bool // Indica se o elemento bloqueia passagem
+	Simbolo  rune // Exportado para ser usado pelo cliente
+	Cor      Cor
+	CorFundo Cor
+	Tangivel bool // Indica se o elemento bloqueia passagem
 }
 
 // Jogo contém o estado atual do jogo
 type Jogo struct {
-	Mapa            [][]Elemento // grade 2D representando o mapa
-	PosX, PosY      int          // posição atual do personagem
-	UltimoVisitado  Elemento     // elemento que estava na posição do personagem antes de mover
-	StatusMsg       string       // mensagem para a barra de status
+	Mapa           [][]Elemento // grade 2D representando o mapa
+	PosX, PosY     int          // posição atual do personagem
+	UltimoVisitado Elemento     // elemento que estava na posição do personagem antes de mover
+	StatusMsg      string       // mensagem para a barra de status
 }
 
 // Elementos visuais do jogo
@@ -31,15 +31,20 @@ var (
 	Vazio      = Elemento{' ', CorPadrao, CorPadrao, false}
 )
 
-// Cria e retorna uma nova instância do jogo
-func jogoNovo() Jogo {
+// JogoNovo cria e retorna uma nova instância do jogo (exportado)
+func JogoNovo() Jogo {
 	// O ultimo elemento visitado é inicializado como vazio
 	// pois o jogo começa com o personagem em uma posição vazia
 	return Jogo{UltimoVisitado: Vazio}
 }
 
-// Lê um arquivo texto linha por linha e constrói o mapa do jogo
-func jogoCarregarMapa(nome string, jogo *Jogo) error {
+// jogoNovo mantido para compatibilidade
+func jogoNovo() Jogo {
+	return JogoNovo()
+}
+
+// JogoCarregarMapa lê um arquivo texto linha por linha e constrói o mapa do jogo (exportado)
+func JogoCarregarMapa(nome string, jogo *Jogo) error {
 	arq, err := os.Open(nome)
 	if err != nil {
 		return err
@@ -54,13 +59,13 @@ func jogoCarregarMapa(nome string, jogo *Jogo) error {
 		for x, ch := range linha {
 			e := Vazio
 			switch ch {
-			case Parede.simbolo:
+			case Parede.Simbolo:
 				e = Parede
-			case Inimigo.simbolo:
+			case Inimigo.Simbolo:
 				e = Inimigo
-			case Vegetacao.simbolo:
+			case Vegetacao.Simbolo:
 				e = Vegetacao
-			case Personagem.simbolo:
+			case Personagem.Simbolo:
 				jogo.PosX, jogo.PosY = x, y // registra a posição inicial do personagem
 			}
 			linhaElems = append(linhaElems, e)
@@ -74,8 +79,13 @@ func jogoCarregarMapa(nome string, jogo *Jogo) error {
 	return nil
 }
 
-// Verifica se o personagem pode se mover para a posição (x, y)
-func jogoPodeMoverPara(jogo *Jogo, x, y int) bool {
+// jogoCarregarMapa mantido para compatibilidade
+func jogoCarregarMapa(nome string, jogo *Jogo) error {
+	return JogoCarregarMapa(nome, jogo)
+}
+
+// JogoPodeMoverPara verifica se o personagem pode se mover para a posição (x, y) (exportado)
+func JogoPodeMoverPara(jogo *Jogo, x, y int) bool {
 	// Verifica se a coordenada Y está dentro dos limites verticais do mapa
 	if y < 0 || y >= len(jogo.Mapa) {
 		return false
@@ -87,7 +97,7 @@ func jogoPodeMoverPara(jogo *Jogo, x, y int) bool {
 	}
 
 	// Verifica se o elemento de destino é tangível (bloqueia passagem)
-	if jogo.Mapa[y][x].tangivel {
+	if jogo.Mapa[y][x].Tangivel {
 		return false
 	}
 
@@ -95,14 +105,24 @@ func jogoPodeMoverPara(jogo *Jogo, x, y int) bool {
 	return true
 }
 
-// Move um elemento para a nova posição
-func jogoMoverElemento(jogo *Jogo, x, y, dx, dy int) {
+// jogoPodeMoverPara mantido para compatibilidade
+func jogoPodeMoverPara(jogo *Jogo, x, y int) bool {
+	return JogoPodeMoverPara(jogo, x, y)
+}
+
+// JogoMoverElemento move um elemento para a nova posição (exportado)
+func JogoMoverElemento(jogo *Jogo, x, y, dx, dy int) {
 	nx, ny := x+dx, y+dy
 
 	// Obtem elemento atual na posição
 	elemento := jogo.Mapa[y][x] // guarda o conteúdo atual da posição
 
-	jogo.Mapa[y][x] = jogo.UltimoVisitado     // restaura o conteúdo anterior
-	jogo.UltimoVisitado = jogo.Mapa[ny][nx]   // guarda o conteúdo atual da nova posição
-	jogo.Mapa[ny][nx] = elemento              // move o elemento
+	jogo.Mapa[y][x] = jogo.UltimoVisitado   // restaura o conteúdo anterior
+	jogo.UltimoVisitado = jogo.Mapa[ny][nx] // guarda o conteúdo atual da nova posição
+	jogo.Mapa[ny][nx] = elemento            // move o elemento
+}
+
+// jogoMoverElemento mantido para compatibilidade
+func jogoMoverElemento(jogo *Jogo, x, y, dx, dy int) {
+	JogoMoverElemento(jogo, x, y, dx, dy)
 }

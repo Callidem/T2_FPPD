@@ -14,13 +14,14 @@ type Cor = termbox.Attribute
 
 // Definições de cores utilizadas no jogo
 const (
-	CorPadrao     Cor = termbox.ColorDefault
-	CorCinzaEscuro    = termbox.ColorDarkGray
-	CorVermelho       = termbox.ColorRed
-	CorVerde          = termbox.ColorGreen
-	CorParede         = termbox.ColorBlack | termbox.AttrBold | termbox.AttrDim
-	CorFundoParede    = termbox.ColorDarkGray
-	CorTexto          = termbox.ColorDarkGray
+	CorPadrao      Cor = termbox.ColorDefault
+	CorCinzaEscuro     = termbox.ColorDarkGray
+	CorVermelho        = termbox.ColorRed
+	CorVerde           = termbox.ColorGreen
+	CorCiano           = termbox.ColorCyan
+	CorParede          = termbox.ColorBlack | termbox.AttrBold | termbox.AttrDim
+	CorFundoParede     = termbox.ColorDarkGray
+	CorTexto           = termbox.ColorDarkGray
 )
 
 // EventoTeclado representa uma ação detectada do teclado (como mover, sair ou interagir)
@@ -29,20 +30,30 @@ type EventoTeclado struct {
 	Tecla rune   // Tecla pressionada, usada no caso de movimento
 }
 
-// Inicializa a interface gráfica usando termbox
-func interfaceIniciar() {
+// InterfaceIniciar inicializa a interface gráfica usando termbox (exportado)
+func InterfaceIniciar() {
 	if err := termbox.Init(); err != nil {
 		panic(err)
 	}
 }
 
-// Encerra o uso da interface termbox
-func interfaceFinalizar() {
+// interfaceIniciar mantido para compatibilidade
+func interfaceIniciar() {
+	InterfaceIniciar()
+}
+
+// InterfaceFinalizar encerra o uso da interface termbox (exportado)
+func InterfaceFinalizar() {
 	termbox.Close()
 }
 
-// Lê um evento do teclado e o traduz para um EventoTeclado
-func interfaceLerEventoTeclado() EventoTeclado {
+// interfaceFinalizar mantido para compatibilidade
+func interfaceFinalizar() {
+	InterfaceFinalizar()
+}
+
+// InterfaceLerEventoTeclado lê um evento do teclado e o traduz para um EventoTeclado (exportado)
+func InterfaceLerEventoTeclado() EventoTeclado {
 	ev := termbox.PollEvent()
 	if ev.Type != termbox.EventKey {
 		return EventoTeclado{}
@@ -56,8 +67,13 @@ func interfaceLerEventoTeclado() EventoTeclado {
 	return EventoTeclado{Tipo: "mover", Tecla: ev.Ch}
 }
 
-// Renderiza todo o estado atual do jogo na tela
-func interfaceDesenharJogo(jogo *Jogo) {
+// interfaceLerEventoTeclado mantido para compatibilidade
+func interfaceLerEventoTeclado() EventoTeclado {
+	return InterfaceLerEventoTeclado()
+}
+
+// InterfaceDesenharJogo renderiza todo o estado atual do jogo na tela (exportado)
+func InterfaceDesenharJogo(jogo *Jogo) {
 	interfaceLimparTela()
 
 	// Desenha todos os elementos do mapa
@@ -77,19 +93,39 @@ func interfaceDesenharJogo(jogo *Jogo) {
 	interfaceAtualizarTela()
 }
 
-// Limpa a tela do terminal
-func interfaceLimparTela() {
+// interfaceDesenharJogo mantido para compatibilidade
+func interfaceDesenharJogo(jogo *Jogo) {
+	InterfaceDesenharJogo(jogo)
+}
+
+// InterfaceLimparTela limpa a tela do terminal (exportado)
+func InterfaceLimparTela() {
 	termbox.Clear(CorPadrao, CorPadrao)
 }
 
-// Força a atualização da tela do terminal com os dados desenhados
-func interfaceAtualizarTela() {
+// interfaceLimparTela mantido para compatibilidade
+func interfaceLimparTela() {
+	InterfaceLimparTela()
+}
+
+// InterfaceAtualizarTela força a atualização da tela do terminal com os dados desenhados (exportado)
+func InterfaceAtualizarTela() {
 	termbox.Flush()
 }
 
-// Desenha um elemento na posição (x, y)
+// interfaceAtualizarTela mantido para compatibilidade
+func interfaceAtualizarTela() {
+	InterfaceAtualizarTela()
+}
+
+// InterfaceDesenharElemento desenha um elemento na posição (x, y) (exportado)
+func InterfaceDesenharElemento(x, y int, elem Elemento) {
+	termbox.SetCell(x, y, elem.Simbolo, elem.Cor, elem.CorFundo)
+}
+
+// interfaceDesenharElemento mantido para compatibilidade
 func interfaceDesenharElemento(x, y int, elem Elemento) {
-	termbox.SetCell(x, y, elem.simbolo, elem.cor, elem.corFundo)
+	InterfaceDesenharElemento(x, y, elem)
 }
 
 // Exibe uma barra de status com informações úteis ao jogador
@@ -105,4 +141,3 @@ func interfaceDesenharBarraDeStatus(jogo *Jogo) {
 		termbox.SetCell(i, len(jogo.Mapa)+3, c, CorTexto, CorPadrao)
 	}
 }
-

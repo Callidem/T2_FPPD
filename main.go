@@ -1,12 +1,16 @@
-// main.go - Loop principal do jogo
+// main.go - Loop principal do jogo (versão single-player original)
 package main
 
-import "os"
+import (
+	"os"
+
+	"github.com/usrteia-0005/T2_FPPD/pkg/game"
+)
 
 func main() {
 	// Inicializa a interface (termbox)
-	interfaceIniciar()
-	defer interfaceFinalizar()
+	game.InterfaceIniciar()
+	defer game.InterfaceFinalizar()
 
 	// Usa "mapa.txt" como arquivo padrão ou lê o primeiro argumento
 	mapaFile := "mapa.txt"
@@ -15,20 +19,20 @@ func main() {
 	}
 
 	// Inicializa o jogo
-	jogo := jogoNovo()
-	if err := jogoCarregarMapa(mapaFile, &jogo); err != nil {
+	jogo := game.JogoNovo()
+	if err := game.JogoCarregarMapa(mapaFile, &jogo); err != nil {
 		panic(err)
 	}
 
 	// Desenha o estado inicial do jogo
-	interfaceDesenharJogo(&jogo)
+	game.InterfaceDesenharJogo(&jogo)
 
 	// Loop principal de entrada
 	for {
-		evento := interfaceLerEventoTeclado()
-		if continuar := personagemExecutarAcao(evento, &jogo); !continuar {
+		evento := game.InterfaceLerEventoTeclado()
+		if continuar := game.PersonagemExecutarAcao(evento, &jogo); !continuar {
 			break
 		}
-		interfaceDesenharJogo(&jogo)
+		game.InterfaceDesenharJogo(&jogo)
 	}
 }

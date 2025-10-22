@@ -1503,3 +1503,89 @@
 2025/10/20 20:41:07.613934 server.go:62: [RPC] SendMessage called: UserMessage = eh us guri
 2025/10/20 20:41:07.614034 server.go:67: [RPC] SendMessage ok: UserMessage = eh us guri
 2025/10/20 20:45:55.468039 server.go:276: [CLIENT 1] desconectado (172.20.10.9:55160)
+2025/10/20 22:35:34.430278 server.go:243: Servidor RPC iniciando na porta 8932 ...
+2025/10/20 22:35:34.431478 server.go:246: IP principal (rota padrão): 192.168.0.89:8932
+2025/10/20 22:35:34.431737 server.go:249: IP local disponível: 192.168.0.89:8932
+2025/10/20 22:35:45.656993 server.go:268: [CLIENT 1] conectado de 192.168.0.89:55980
+2025/10/20 22:35:45.659991 server.go:75: [RPC] CreateUser called: NewPosX=57 NewPosY=4
+2025/10/20 22:35:45.660037 server.go:89: [RPC] CreateUser ok: id=1 pos=(57,4)
+2025/10/20 22:35:45.660622 server.go:96: [RPC] GetUser called: id=1
+2025/10/20 22:35:45.660658 server.go:109: [RPC] GetUser ok: id=1 pos=(57,4)
+2025/10/20 22:35:45.660906 server.go:116: [RPC] ListUsers called
+2025/10/20 22:35:45.660948 server.go:127: [RPC] ListUsers ok: count=1
+2025/10/20 22:35:58.037835 server.go:62: [RPC] SendMessage called: UserMessage = oi
+2025/10/20 22:35:58.037913 server.go:67: [RPC] SendMessage ok: UserMessage = oi
+2025/10/20 22:36:09.625298 server.go:62: [RPC] SendMessage called: UserMessage = Tchau
+2025/10/20 22:36:09.625414 server.go:67: [RPC] SendMessage ok: UserMessage = Tchau
+2025/10/20 23:03:40.819771 server.go:258: Servidor RPC iniciando na porta 8932 ...
+2025/10/20 23:03:40.822712 server.go:261: IP principal (rota padrão): 192.168.0.89:8932
+2025/10/20 23:03:40.822881 server.go:264: IP local disponível: 192.168.0.89:8932
+2025/10/20 23:03:49.129890 server.go:283: [CLIENT 1] conectado de 192.168.0.89:38646
+2025/10/20 23:03:49.130455 server.go:79: [RPC] CreateUser called from 192.168.0.89: NewPosX=37 NewPosY=7
+2025/10/20 23:03:49.130503 server.go:104: [RPC] CreateUser ok: id=1 pos=(37,7) ip=192.168.0.89
+2025/10/20 23:03:49.131125 server.go:110: [RPC] GetUser called from 192.168.0.89: id=1
+2025/10/20 23:03:49.131172 server.go:124: [RPC] GetUser ok: id=1 pos=(37,7)
+2025/10/20 23:03:49.131427 server.go:130: [RPC] ListUsers called from 192.168.0.89
+2025/10/20 23:03:49.131465 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/20 23:03:53.568531 server.go:296: [CLIENT 1] desconectado (192.168.0.89:38646)
+2025/10/20 23:03:56.930824 server.go:283: [CLIENT 2] conectado de 192.168.0.89:53148
+2025/10/20 23:03:56.931211 server.go:79: [RPC] CreateUser called from 192.168.0.89: NewPosX=5 NewPosY=74
+2025/10/20 23:03:56.931266 server.go:93: [RPC] Reconnected existing user id=1 for IP=192.168.0.89
+2025/10/20 23:03:56.931790 server.go:110: [RPC] GetUser called from 192.168.0.89: id=1
+2025/10/20 23:03:56.931852 server.go:124: [RPC] GetUser ok: id=1 pos=(5,74)
+2025/10/20 23:03:56.932097 server.go:130: [RPC] ListUsers called from 192.168.0.89
+2025/10/20 23:03:56.932150 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/20 23:04:47.502017 server.go:70: [RPC] SendMessage called from 192.168.0.89: UserMessage = aaa
+2025/10/20 23:04:47.502088 server.go:73: [RPC] SendMessage ok: from=192.168.0.89 Message=aaa
+2025/10/20 23:05:04.132597 server.go:296: [CLIENT 2] desconectado (192.168.0.89:53148)
+2025/10/20 23:14:44.138018 server.go:256: Servidor RPC iniciando na porta 8932 ...
+2025/10/20 23:14:44.138259 server.go:259: IP principal (rota padrão): 192.168.0.89:8932
+2025/10/20 23:14:44.138464 server.go:262: IP local disponível: 192.168.0.89:8932
+2025/10/20 23:19:56.476479 server.go:256: Servidor RPC iniciando na porta 8932 ...
+2025/10/20 23:19:56.476681 server.go:259: IP principal (rota padrão): 192.168.0.89:8932
+2025/10/20 23:19:56.476906 server.go:262: IP local disponível: 192.168.0.89:8932
+2025/10/20 23:20:00.764287 server.go:281: [CLIENT 1] conectado de 192.168.0.89:34870
+2025/10/20 23:20:04.166894 server.go:77: [RPC] CreateUser called: username=Callidem
+ NewPosX=15 NewPosY=26
+2025/10/20 23:20:04.166970 server.go:100: [RPC] CreateUser ok: username=Callidem
+ id=1 pos=(15,26)
+2025/10/20 23:20:04.168651 server.go:289: [CLIENT 1] desconectado (192.168.0.89:34870)
+2025/10/20 23:21:11.647268 server.go:281: [CLIENT 2] conectado de 192.168.0.89:53638
+2025/10/20 23:21:17.129041 server.go:77: [RPC] CreateUser called: username=Callidem
+ NewPosX=53 NewPosY=34
+2025/10/20 23:21:17.129135 server.go:89: [RPC] Recovered session for username=Callidem
+ id=1
+2025/10/20 23:21:17.130695 server.go:289: [CLIENT 2] desconectado (192.168.0.89:53638)
+2025/10/20 23:32:27.560297 server.go:254: Servidor RPC iniciando na porta 8932 ...
+2025/10/20 23:32:27.560585 server.go:257: IP principal (rota padrão): 192.168.0.89:8932
+2025/10/20 23:32:27.560736 server.go:260: IP local disponível: 192.168.0.89:8932
+2025/10/20 23:32:32.950759 server.go:279: [CLIENT 1] conectado de 192.168.0.89:41736
+2025/10/20 23:32:36.036841 server.go:77: [RPC] CreateUser called: username=callidem
+ NewPosX=10 NewPosY=19
+2025/10/20 23:32:36.036916 server.go:98: [RPC] CreateUser ok: username=callidem
+ id=1 pos=(10,19)
+2025/10/20 23:32:36.037617 server.go:105: [RPC] GetUser called: Username=
+2025/10/20 23:32:36.037661 server.go:113: [RPC] GetUser erro: usuário não encontrado
+2025/10/20 23:32:36.038669 server.go:287: [CLIENT 1] desconectado (192.168.0.89:41736)
+2025/10/21 11:16:10.290998 server.go:254: Servidor RPC iniciando na porta 8932 ...
+2025/10/21 11:16:10.291169 server.go:257: IP principal (rota padrão): 192.168.0.89:8932
+2025/10/21 11:16:10.291325 server.go:260: IP local disponível: 192.168.0.89:8932
+2025/10/21 11:16:14.063668 server.go:279: [CLIENT 1] conectado de 192.168.0.89:49134
+2025/10/21 11:16:16.943852 server.go:77: [RPC] CreateUser called: username=callidem
+ NewPosX=80 NewPosY=12
+2025/10/21 11:16:16.943929 server.go:98: [RPC] CreateUser ok: username=callidem
+ id=1 pos=(80,12)
+2025/10/21 11:16:16.944542 server.go:105: [RPC] GetUser called: Username=
+2025/10/21 11:16:16.944587 server.go:113: [RPC] GetUser erro: usuário não encontrado
+2025/10/21 11:16:16.945599 server.go:287: [CLIENT 1] desconectado (192.168.0.89:49134)
+2025/10/21 11:17:25.483970 server.go:254: Servidor RPC iniciando na porta 8932 ...
+2025/10/21 11:17:25.484155 server.go:257: IP principal (rota padrão): 192.168.0.89:8932
+2025/10/21 11:17:25.484322 server.go:260: IP local disponível: 192.168.0.89:8932
+2025/10/21 11:17:29.579846 server.go:279: [CLIENT 1] conectado de 192.168.0.89:56994
+2025/10/21 11:17:32.877571 server.go:77: [RPC] CreateUser called: username=callidem
+ NewPosX=49 NewPosY=3
+2025/10/21 11:17:32.877643 server.go:98: [RPC] CreateUser ok: username=callidem
+ id=1 pos=(49,3)
+2025/10/21 11:17:32.878180 server.go:105: [RPC] GetUser called: Username=
+2025/10/21 11:17:32.878225 server.go:113: [RPC] GetUser erro: usuário não encontrado
+2025/10/21 11:17:32.879274 server.go:287: [CLIENT 1] desconectado (192.168.0.89:56994)

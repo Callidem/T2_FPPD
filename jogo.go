@@ -4,6 +4,7 @@ package main
 import (
 	"bufio"
 	"os"
+	"sync"
 )
 
 // Elemento representa qualquer objeto do mapa (parede, personagem, vegetação, etc)
@@ -14,12 +15,21 @@ type Elemento struct {
 	tangivel bool // Indica se o elemento bloqueia passagem
 }
 
+type Jogador struct {
+	Nome           string
+	PosX, PosY     int // posição atual do personagem
+	Cor            Cor
+	UltimoVisitado Elemento // elemento que estava na posição do personagem antes de mover
+	Active         bool
+	Evento         rune
+}
+
 // Jogo contém o estado atual do jogo
 type Jogo struct {
-	Mapa           [][]Elemento // grade 2D representando o mapa
-	PosX, PosY     int          // posição atual do personagem
-	UltimoVisitado Elemento     // elemento que estava na posição do personagem antes de mover
-	StatusMsg      string       // mensagem para a barra de status
+	mu        sync.Mutex
+	Mapa      [][]Elemento    // grade 2D representando o mapa
+	Jogadores map[int]Jogador // jogadores conectados (map por ID)
+	StatusMsg string          // mensagem para a barra de status
 }
 
 // Elementos visuais do jogo
@@ -35,7 +45,7 @@ var (
 func jogoNovo() Jogo {
 	// O ultimo elemento visitado é inicializado como vazio
 	// pois o jogo começa com o personagem em uma posição vazia
-	return Jogo{UltimoVisitado: Vazio}
+	return Jogo{Jogadores: make(map[int]Jogador)}
 }
 
 // Lê um arquivo texto linha por linha e constrói o mapa do jogo
@@ -51,7 +61,7 @@ func jogoCarregarMapa(nome string, jogo *Jogo) error {
 	for scanner.Scan() {
 		linha := scanner.Text()
 		var linhaElems []Elemento
-		for x, ch := range linha {
+		for _, ch := range linha {
 			e := Vazio
 			switch ch {
 			case Parede.simbolo:
@@ -60,8 +70,6 @@ func jogoCarregarMapa(nome string, jogo *Jogo) error {
 				e = Inimigo
 			case Vegetacao.simbolo:
 				e = Vegetacao
-			case Personagem.simbolo:
-				jogo.PosX, jogo.PosY = x, y // registra a posição inicial do personagem
 			}
 			linhaElems = append(linhaElems, e)
 		}
@@ -96,13 +104,22 @@ func jogoPodeMoverPara(jogo *Jogo, x, y int) bool {
 }
 
 // Move um elemento para a nova posição
-func jogoMoverElemento(jogo *Jogo, x, y, dx, dy int) {
+func jogoMoverElemento(jogo *Jogo, x, y, dx, dy, ID int) {
 	nx, ny := x+dx, y+dy
 
 	// Obtem elemento atual na posição
 	elemento := jogo.Mapa[y][x] // guarda o conteúdo atual da posição
 
-	jogo.Mapa[y][x] = jogo.UltimoVisitado   // restaura o conteúdo anterior
-	jogo.UltimoVisitado = jogo.Mapa[ny][nx] // guarda o conteúdo atual da nova posição
-	jogo.Mapa[ny][nx] = elemento            // move o elemento
+	// Obtém (ou inicializa) o jogador no map
+	jogador, ok := jogo.Jogadores[ID]
+	if !ok {
+		jogador = Jogador{UltimoVisitado: Vazio}
+	}
+
+	jogo.Mapa[y][x] = jogador.UltimoVisitado   // restaura o conteúdo anterior
+	jogador.UltimoVisitado = jogo.Mapa[ny][nx] // guarda o conteúdo atual da nova posição
+	jogo.Mapa[ny][nx] = elemento               // move o elemento
+
+	// grava de volta no map
+	jogo.Jogadores[ID] = jogador
 }

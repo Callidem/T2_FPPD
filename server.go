@@ -7,8 +7,7 @@ package main
 import (
 	"encoding/gob" // Registro/serialização de tipos usados em RPC (gob)
 	"errors"
-	"fmt"
-	"image/color" // Para o tipo color.RGBA no struct User
+	"fmt" // Para o tipo color.RGBA no struct User
 	"io"
 	"log"
 	"net"
@@ -24,81 +23,72 @@ import (
 // CreateUserRequest: payload da chamada RPC para criar um novo usuário.
 // Os campos são exportados (inicial maiúscula) para o gob enxergar.
 type CreateUserRequest struct {
-	NewPosX int
-	NewPosY int
-}
-
-type SendMessageRequest struct {
-	Message string
-}
-
-type UserMessage struct {
-	Message string
+	Username string
+	NewPosX  int
+	NewPosY  int
 }
 
 // GetUserRequest: payload para consultar um usuário por ID.
-type GetUserRequest struct{ ID int }
+type GetUserRequest struct{ Username string }
 
 // User: objeto de domínio retornado/armazenado pelo serviço.
 // Inclui posição, IP (pode ser populado depois) e cor do jogador.
 type User struct {
+	Username    string
 	ID          int
 	PosX        int
 	PosY        int
-	IP          string
-	PlayerColor color.RGBA
+	PlayerColor Cor
+	Active      bool
 }
 
 // ===== Serviço =====
 
 // UserService encapsula o estado (map de usuários) e o próximo ID.
 type UserService struct {
-	mu     sync.Mutex   // Protege acesso concorrente ao mapa/nextID
-	users  map[int]User // "Banco" em memória dos usuários
-	nextID int          // Autoincremento de IDs
-}
-
-func (s *UserService) SendMessage(req *SendMessageRequest, resp *UserMessage) error {
-	log.Printf("[RPC] SendMessage called: UserMessage = %s", req.Message)
-
-	s.mu.Lock()
-	defer s.mu.Unlock() // Garante unlock mesmo em erro/panic
-
-	log.Printf("[RPC] SendMessage ok: UserMessage = %s", req.Message)
-	return nil
-
+	mu           sync.Mutex     // Protege acesso concorrente ao mapa/nextID
+	users        map[int]User   // "Banco" em memória dos usuários
+	nextID       int            // Autoincremento de IDs
+	usernameToID map[string]int // Mapeia username -> user ID para recuperar sessão
 }
 
 // CreateUser: método RPC para criar usuário.
 // Recebe as coordenadas iniciais e devolve o struct User criado.
 func (s *UserService) CreateUser(req *CreateUserRequest, resp *User) error {
-	log.Printf("[RPC] CreateUser called: NewPosX=%d NewPosY=%d", req.NewPosX, req.NewPosY)
+	log.Printf("[RPC] CreateUser called: username=%s NewPosX=%d NewPosY=%d", req.Username, req.NewPosX, req.NewPosY)
 
-	s.mu.Lock()         // Entra em seção crítica para mexer em nextID e map
-	defer s.mu.Unlock() // Garante unlock mesmo em erro/panic
+	s.mu.Lock()
+	defer s.mu.Unlock()
 
-	s.nextID++ // Gera novo ID
+	// Se já existe sessão para este username, reutiliza o ID e atualiza posição.
+	if id, ok := s.usernameToID[req.Username]; ok {
+		u := s.users[id]
+		s.users[id] = u
+		*resp = u
+		log.Printf("[RPC] Recovered session for username=%s id=%d", req.Username, id)
+		return nil
+	}
+
+	// Senão cria nova sessão/usuário e associa ao username.
+	s.nextID++
 	u := User{ID: s.nextID, PosX: req.NewPosX, PosY: req.NewPosY}
-
-	// Persiste na estrutura em memória
 	s.users[u.ID] = u
+	s.usernameToID[req.Username] = u.ID
 
-	// Copia para a resposta (o lado cliente recebe uma cópia)
 	*resp = u
-
-	log.Printf("[RPC] CreateUser ok: id=%d pos=(%d,%d)", u.ID, u.PosX, u.PosY)
+	log.Printf("[RPC] CreateUser ok: username=%s id=%d pos=(%d,%d)", req.Username, u.ID, u.PosX, u.PosY)
 	return nil
 }
 
 // GetUser: método RPC para retornar um usuário por ID.
 // Se não existir, retorna erro (que chega como erro RPC no cliente).
 func (s *UserService) GetUser(req *GetUserRequest, resp *User) error {
-	log.Printf("[RPC] GetUser called: id=%d", req.ID)
+	log.Printf("[RPC] GetUser called: Username=%s", req.ID)
 
 	s.mu.Lock()
 	defer s.mu.Unlock()
-
-	u, ok := s.users[req.ID]
+	id := s.usernameToID[req.Username]
+	u, ok := s.users[id]
 	if !ok {
 		err := errors.New("usuário não encontrado")
 		log.Printf("[RPC] GetUser erro: %v", err)
@@ -106,7 +96,7 @@ func (s *UserService) GetUser(req *GetUserRequest, resp *User) error {
 	}
 
 	*resp = u
-	log.Printf("[RPC] GetUser ok: id=%d pos=(%d,%d)", u.ID, u.PosX, u.PosY)
+	log.Printf("[RPC] GetUser ok: id=%d Username=%s pos=(%d,%d)", u.ID, u.PosX, u.PosY)
 	return nil
 }
 
@@ -223,9 +213,11 @@ func main() {
 	// 3) Mostra no stdout a "fotografia" dos tipos compilados (debug).
 	debugDumpServerTypes()
 
-	// 4) Instancia o serviço com mapa inicializado.
-	svc := &UserService{users: make(map[int]User)}
-
+	// 4) Instancia o serviço com mapas inicializados.
+	svc := &UserService{
+		users:        make(map[int]User),
+		usernameToID: make(map[string]int),
+	}
 	// 5) Registra o serviço no servidor RPC sob o nome "UserService".
 	//    Os métodos exportados com assinatura adequada viram endpoints RPC.
 	if err := rpc.RegisterName("UserService", svc); err != nil {

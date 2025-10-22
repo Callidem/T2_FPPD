@@ -67,8 +67,14 @@ func interfaceDesenharJogo(jogo *Jogo) {
 		}
 	}
 
-	// Desenha o personagem sobre o mapa
-	interfaceDesenharElemento(jogo.PosX, jogo.PosY, Personagem)
+	// Desenha os personagens sobre o mapa
+	jogo.mu.Lock()
+	for _, jogador := range jogo.Jogadores {
+		if jogador.Active {
+			interfaceDesenharElemento(jogador.PosX, jogador.PosY, Personagem)
+		}
+	}
+	jogo.mu.Unlock()
 
 	// Desenha a barra de status
 	interfaceDesenharBarraDeStatus(jogo)

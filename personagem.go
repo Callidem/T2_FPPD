@@ -29,17 +29,18 @@ func personagemMover(tecla rune, jogo *Jogo, ID int) {
 	nx, ny := jogador.PosX+dx, jogador.PosY+dy
 	// Verifica se o movimento é permitido e realiza a movimentação
 	if jogoPodeMoverPara(jogo, nx, ny) {
-		jogoMoverElemento(jogo, jogador.PosX, jogador.PosY, dx, dy, ID)
 		jogador.PosX, jogador.PosY = nx, ny
+		jogoMoverElemento(jogo, jogador.PosX, jogador.PosY, ID)
+		jogo.seq++
 		jogo.Jogadores[ID] = jogador
 		// Notifica o servidor fora do lock para não bloquear a UI
 		go func(id, x, y int) {
-			if rpcClient == nil {
+			if jogo.RPCClient == nil {
 				return
 			}
 			req := UpdatePositionRequest{ID: id, PosX: x, PosY: y}
 			// ignora erro, apenas loga para debug
-			if err := rpcClient.Call("UserService.UpdatePosition", &req, &struct{}{}); err != nil {
+			if err := jogo.RPCClient.Call("UserService.UpdatePosition", &req, &struct{}{}); err != nil {
 				log.Printf("RPC erro(UpdatePosition): %v", err)
 			}
 		}(ID, nx, ny)

@@ -1,7 +1,7 @@
 # Trabalho 2 da cadeira de Fundamentos de Processamento Paralelo e Distribuído
 ## Decisões do grupo
-- Cliente tem um vetor de structs com ID e posição de cada jogador
-- No cliente, o jogador pede o vetor com as posições de todos, mas bloqueia a atualização da sua própria
+- X Cliente tem um mapa de structs com ID e posição de cada jogador
+- No cliente, o jogador pede o mapa com as posições de todos, mas bloqueia a atualização da sua própria
 - O cliente envia somente sua posição para o  servidor
 - O servidor recebe de todos e atualiza para todos, conforme solicitado
 - Depois de logar, a pessoa fica com uma posição do vetor fixa, atrelada ao seu nome de usuário

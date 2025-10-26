@@ -23,10 +23,24 @@ func main() {
 	gob.Register(GetUserRequest{})
 	gob.Register(User{})
 
+	// Usa "mapa.txt" como arquivo padrão ou lê o primeiro argumento
+	mapaFile := "mapa.txt" //mapa é fixo neste exemplo
+	/*if len(os.Args) > 1 {
+		mapaFile = os.Args[1]
+	}*/
+
+	// Inicializa o jogo
+	jogo := jogoNovo()
+	if err := jogoCarregarMapa(mapaFile, &jogo); err != nil {
+		panic(err)
+	}
+
+	// Conecta ao servidor RPC
 	c, err := rpc.Dial("tcp", addr)
 	if err != nil {
 		log.Fatal(err)
 	}
+	jogo.RPCClient = c
 
 	fmt.Print("Digite seu nome de usuário: ")
 	reader := bufio.NewReader(os.Stdin)
@@ -48,7 +62,7 @@ func main() {
 	// 1) CreateUser
 	req := CreateUserRequest{Username: username, NewPosX: 16, NewPosY: 5, PlayerColor: CorCinzaEscuro}
 	var u User
-	if err := c.Call("UserService.CreateUser", &req, &u); err != nil {
+	if err := jogo.RPCClient.Call("UserService.CreateUser", &req, &u); err != nil {
 		log.Fatal("RPC erro(CreateUser):", err)
 	}
 	fmt.Printf("Criado: Username=%s pos=(%d,%d) ID=%d\n", u.Username, u.PosX, u.PosY, u.ID)
@@ -56,14 +70,14 @@ func main() {
 
 	// 2) GetUser
 	var got User
-	if err := c.Call("UserService.GetUser", &GetUserRequest{ID: u.ID}, &got); err != nil {
+	if err := jogo.RPCClient.Call("UserService.GetUser", &GetUserRequest{ID: u.ID}, &got); err != nil {
 		log.Fatal("RPC erro(GetUser):", err)
 	}
 	fmt.Printf("Buscado: Username = %s pos=(%d,%d)\n", got.Username, got.PosX, got.PosY)
 
 	// 3) ListUsers
 	var all []User
-	if err := c.Call("UserService.ListUsers", &struct{}{}, &all); err != nil {
+	if err := jogo.RPCClient.Call("UserService.ListUsers", &struct{}{}, &all); err != nil {
 		log.Fatal("RPC erro(ListUsers):", err)
 	}
 	fmt.Println("Todos os usuários:")
@@ -77,7 +91,7 @@ func main() {
 		defer ticker.Stop()
 		for range ticker.C {
 			var msgs []Message
-			if err := c.Call("UserService.GetNewMessages", &GetNewMessagesRequest{Username: myUser}, &msgs); err != nil {
+			if err := jogo.RPCClient.Call("UserService.GetNewMessages", &GetNewMessagesRequest{Username: myUser}, &msgs); err != nil {
 				log.Printf("RPC erro(GetNewMessages): %v", err)
 				continue
 			}
@@ -92,25 +106,13 @@ func main() {
 	interfaceIniciar()
 	defer interfaceFinalizar()
 
-	// Usa "mapa.txt" como arquivo padrão ou lê o primeiro argumento
-	mapaFile := "mapa.txt" //mapa é fixo neste exemplo
-	/*if len(os.Args) > 1 {
-		mapaFile = os.Args[1]
-	}*/
-
-	// Inicializa o jogo
-	jogo := jogoNovo()
-	if err := jogoCarregarMapa(mapaFile, &jogo); err != nil {
-		panic(err)
-	}
-
 	// Start polling goroutine to keep local players positions updated from server
 	go func() {
 		ticker := time.NewTicker(200 * time.Millisecond)
 		defer ticker.Stop()
 		for range ticker.C {
 			var all []User
-			if err := c.Call("UserService.ListUsers", &struct{}{}, &all); err != nil {
+			if err := jogo.RPCClient.Call("UserService.ListUsers", &struct{}{}, &all); err != nil {
 				// log but keep trying
 				log.Printf("RPC erro(ListUsers): %v", err)
 				continue

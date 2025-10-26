@@ -42,6 +42,27 @@ type User struct {
 	Active      bool
 }
 
+type ListUsersRequest struct {
+}
+type ListUsersReply struct {
+	Users []User
+}
+
+type UpdatePositionRequest struct {
+	ClientID int //ou Username/
+	Seq      uint64
+	PosX     int
+	PosY     int
+}
+
+type UpdatePositionReply struct {
+	OK         bool
+	AppliedSeq uint64
+}
+
+//Seq = sequence number monotónico gerado pelo cliente para cada comando que modifica estado.
+//ClientID pode ser ID numérico retornado no CreateUser ou o Username (desde que seja único).
+
 // ===== Serviço =====
 
 // UserService encapsula o estado (map de usuários) e o próximo ID.
@@ -50,6 +71,7 @@ type UserService struct {
 	users        map[int]User   // "Banco" em memória dos usuários
 	nextID       int            // Autoincremento de IDs
 	usernameToID map[string]int // Mapeia username -> user ID para recuperar sessão
+	processed    map[int]uint64 // Último Seq processado por ClientID
 }
 
 // CreateUser: método RPC para criar usuário.
@@ -83,7 +105,7 @@ func (s *UserService) CreateUser(req *CreateUserRequest, resp *User) error {
 // GetUser: método RPC para retornar um usuário por ID.
 // Se não existir, retorna erro (que chega como erro RPC no cliente).
 func (s *UserService) GetUser(req *GetUserRequest, resp *User) error {
-	log.Printf("[RPC] GetUser called: Username=%s", req.ID)
+	log.Printf("[RPC] GetUser called: Username=%s", req.Username)
 
 	s.mu.Lock()
 	defer s.mu.Unlock()
@@ -115,6 +137,34 @@ func (s *UserService) ListUsers(_ *struct{}, resp *[]User) error {
 	*resp = out
 
 	log.Printf("[RPC] ListUsers ok: count=%d", len(out))
+	return nil
+}
+
+func (s *UserService) UpdatePosition(req *UpdatePositionRequest, resp *UpdatePositionReply) error {
+	log.Printf("[RPC] UpdatePosition called: ClientID=%d Seq=%d PosX=%d PosY=%d", req.ClientID, req.Seq, req.PosX, req.PosY)
+
+	s.mu.Lock()
+	defer s.mu.Unlock()
+
+	// Verifica se o ClientID é válido
+	if _, ok := s.users[req.ClientID]; !ok {
+		err := errors.New("usuário não encontrado")
+		log.Printf("[RPC] UpdatePosition erro: %v", err)
+		return err
+	}
+
+	// Aplica a atualização de posição
+	s.users[req.ClientID] = User{
+		ID:          req.ClientID,
+		PosX:        req.PosX,
+		PosY:        req.PosY,
+		PlayerColor: s.users[req.ClientID].PlayerColor,
+		Active:      s.users[req.ClientID].Active,
+	}
+
+	resp.OK = true
+	resp.AppliedSeq = req.Seq
+	log.Printf("[RPC] UpdatePosition ok: ClientID=%d Seq=%d", req.ClientID, req.Seq)
 	return nil
 }
 
@@ -209,6 +259,8 @@ func main() {
 	gob.Register(GetUserRequest{})
 	gob.Register(User{})
 	gob.Register(SendMessageRequest{})
+	gob.Register(SendMessageReply{})
+	gob.Register()
 
 	// 3) Mostra no stdout a "fotografia" dos tipos compilados (debug).
 	debugDumpServerTypes()

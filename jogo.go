@@ -3,6 +3,7 @@ package main
 
 import (
 	"bufio"
+	"net/rpc"
 	"os"
 	"sync"
 )
@@ -30,6 +31,10 @@ type Jogo struct {
 	Mapa      [][]Elemento    // grade 2D representando o mapa
 	Jogadores map[int]Jogador // jogadores conectados (map por ID)
 	StatusMsg string          // mensagem para a barra de status
+	RPCClient *rpc.Client
+	localID   int
+	seq       uint64 // último sequence number enviado
+	outbox    chan UpdatePositionRequest
 }
 
 // Elementos visuais do jogo

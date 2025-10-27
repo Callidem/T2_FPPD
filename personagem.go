@@ -7,7 +7,8 @@ import (
 )
 
 // Atualiza a posição do personagem com base na tecla pressionada (WASD)
-func personagemMover(tecla rune, jogo *Jogo, ID int) {
+func personagemMover(tecla rune, jogo *Jogo) {
+
 	dx, dy := 0, 0
 	switch tecla {
 	case 'w':
@@ -22,28 +23,28 @@ func personagemMover(tecla rune, jogo *Jogo, ID int) {
 
 	// Leitura e escrita do jogador a partir do map
 	jogo.mu.Lock()
-	jogador, ok := jogo.Jogadores[ID]
+	jogador, ok := jogo.Jogadores[jogo.localID]
 	if !ok {
 		jogador = Jogador{UltimoVisitado: Vazio}
 	}
 	nx, ny := jogador.PosX+dx, jogador.PosY+dy
 	// Verifica se o movimento é permitido e realiza a movimentação
 	if jogoPodeMoverPara(jogo, nx, ny) {
-		jogador.PosX, jogador.PosY = nx, ny
-		jogoMoverElemento(jogo, jogador.PosX, jogador.PosY, ID)
+		jogoMoverElemento(jogo, nx, ny, jogo.localID)
 		jogo.seq++
-		jogo.Jogadores[ID] = jogador
 		// Notifica o servidor fora do lock para não bloquear a UI
 		go func(id, x, y int) {
 			if jogo.RPCClient == nil {
 				return
 			}
-			req := UpdatePositionRequest{ID: id, PosX: x, PosY: y}
+			jogo.StatusMsg = fmt.Sprintf("Chamando UpdatePosition: id=%d seq=%d pos=(%d,%d)", id, jogo.seq, x, y)
+			req := UpdatePositionRequest{ClientID: id, PosX: x, PosY: y, Seq: jogo.seq}
+
 			// ignora erro, apenas loga para debug
 			if err := jogo.RPCClient.Call("UserService.UpdatePosition", &req, &struct{}{}); err != nil {
 				log.Printf("RPC erro(UpdatePosition): %v", err)
 			}
-		}(ID, nx, ny)
+		}(jogo.localID, nx, ny)
 	}
 	jogo.mu.Unlock()
 }
@@ -51,10 +52,10 @@ func personagemMover(tecla rune, jogo *Jogo, ID int) {
 // Define o que ocorre quando o jogador pressiona a tecla de interação
 // Neste exemplo, apenas exibe uma mensagem de status
 // Você pode expandir essa função para incluir lógica de interação com objetos
-func personagemInteragir(jogo *Jogo, ID int) {
+func personagemInteragir(jogo *Jogo) {
 	// Atualmente apenas exibe uma mensagem de status
 	jogo.mu.Lock()
-	jogador, ok := jogo.Jogadores[ID]
+	jogador, ok := jogo.Jogadores[jogo.localID]
 	if !ok {
 		jogador = Jogador{UltimoVisitado: Vazio}
 	}
@@ -63,17 +64,17 @@ func personagemInteragir(jogo *Jogo, ID int) {
 }
 
 // Processa o evento do teclado e executa a ação correspondente
-func personagemExecutarAcao(ev EventoTeclado, jogo *Jogo, ID int) bool {
+func personagemExecutarAcao(ev EventoTeclado, jogo *Jogo) bool {
 	switch ev.Tipo {
 	case "sair":
 		// Retorna false para indicar que o jogo deve terminar
 		return false
 	case "interagir":
 		// Executa a ação de interação
-		personagemInteragir(jogo, ID)
+		personagemInteragir(jogo)
 	case "mover":
 		// Move o personagem com base na tecla
-		personagemMover(ev.Tecla, jogo, ID)
+		personagemMover(ev.Tecla, jogo)
 	}
 	return true // Continua o jogo
 }

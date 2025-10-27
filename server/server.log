@@ -1,0 +1,709 @@
+2025/10/27 00:25:39.520529 server.go:299: Servidor RPC iniciando na porta 8932 ...
+2025/10/27 00:25:39.520672 server.go:302: IP principal (rota padrão): 10.146.173.151:8932
+2025/10/27 00:25:39.520743 server.go:305: IP local disponível: 10.146.173.151:8932
+2025/10/27 00:25:51.648660 server.go:324: [CLIENT 1] conectado de 10.146.173.151:58448
+2025/10/27 00:26:03.303528 server.go:332: [CLIENT 1] desconectado (10.146.173.151:58448)
+2025/10/27 00:37:35.070459 server.go:299: Servidor RPC iniciando na porta 8932 ...
+2025/10/27 00:37:35.070541 server.go:302: IP principal (rota padrão): 10.146.173.151:8932
+2025/10/27 00:37:35.070613 server.go:305: IP local disponível: 10.146.173.151:8932
+2025/10/27 00:37:38.193161 server.go:324: [CLIENT 1] conectado de 10.146.173.151:53506
+2025/10/27 00:37:51.323330 server.go:81: [RPC] CreateUser called: username=callidem
+ NewPosX=16 NewPosY=5
+2025/10/27 00:37:51.323431 server.go:102: [RPC] CreateUser ok: username=callidem
+ id=1 pos=(16,5)
+2025/10/27 00:37:51.323505 server.go:422: rpc: gob error encoding body: gob: type main.Elemento has no exported fields
+2025/10/27 00:37:51.323560 server.go:332: [CLIENT 1] desconectado (10.146.173.151:53506)
+2025/10/27 00:38:31.729588 server.go:324: [CLIENT 2] conectado de 10.146.173.151:38028
+2025/10/27 00:38:37.004977 server.go:332: [CLIENT 2] desconectado (10.146.173.151:38028)
+2025/10/27 00:38:41.094214 server.go:324: [CLIENT 3] conectado de 10.146.173.151:54448
+2025/10/27 00:38:45.438135 server.go:81: [RPC] CreateUser called: username=callidem
+ NewPosX=16 NewPosY=5
+2025/10/27 00:38:45.438305 server.go:91: [RPC] Recovered session for username=callidem
+ id=1
+2025/10/27 00:38:45.438392 server.go:422: rpc: gob error encoding body: gob: type main.Elemento has no exported fields
+2025/10/27 00:38:45.438441 server.go:332: [CLIENT 3] desconectado (10.146.173.151:54448)
+2025/10/27 00:43:20.044071 server.go:299: Servidor RPC iniciando na porta 8932 ...
+2025/10/27 00:43:20.044617 server.go:302: IP principal (rota padrão): 10.146.173.151:8932
+2025/10/27 00:43:20.044973 server.go:305: IP local disponível: 10.146.173.151:8932
+2025/10/27 00:43:24.078353 server.go:324: [CLIENT 1] conectado de 10.146.173.151:41406
+2025/10/27 00:43:28.810185 server.go:332: [CLIENT 1] desconectado (10.146.173.151:41406)
+2025/10/27 00:44:27.173009 server.go:300: Servidor RPC iniciando na porta 8932 ...
+2025/10/27 00:44:27.173110 server.go:303: IP principal (rota padrão): 10.146.173.151:8932
+2025/10/27 00:44:27.173184 server.go:306: IP local disponível: 10.146.173.151:8932
+2025/10/27 00:44:32.181890 server.go:325: [CLIENT 1] conectado de 10.146.173.151:55364
+2025/10/27 00:44:34.730415 server.go:82: [RPC] CreateUser called: username=callidem
+ NewPosX=16 NewPosY=5
+2025/10/27 00:44:34.730451 server.go:103: [RPC] CreateUser ok: username=callidem
+ id=1 pos=(16,5)
+2025/10/27 00:44:34.730513 server.go:422: rpc: gob error encoding body: gob: type main.Elemento has no exported fields
+2025/10/27 00:44:34.730559 server.go:333: [CLIENT 1] desconectado (10.146.173.151:55364)
+2025/10/27 00:46:28.823363 server.go:306: Servidor RPC iniciando na porta 8932 ...
+2025/10/27 00:46:28.823435 server.go:309: IP principal (rota padrão): 10.146.173.151:8932
+2025/10/27 00:46:28.823504 server.go:312: IP local disponível: 10.146.173.151:8932
+2025/10/27 00:46:32.776701 server.go:331: [CLIENT 1] conectado de 10.146.173.151:59962
+2025/10/27 00:46:35.812468 server.go:83: [RPC] CreateUser called: username=callidem
+ NewPosX=16 NewPosY=5
+2025/10/27 00:46:35.812511 server.go:104: [RPC] CreateUser ok: username=callidem
+ id=1 pos=(16,5)
+2025/10/27 00:46:35.812729 server.go:111: [RPC] GetUser called: Username=callidem
+2025/10/27 00:46:35.812836 server.go:124: [RPC] GetUser ok: id=1 Username=%!s(int=16) pos=(5,%!d(MISSING))
+2025/10/27 00:46:35.812944 server.go:131: [RPC] ListUsers called
+2025/10/27 00:46:35.812958 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 00:46:35.913973 server.go:131: [RPC] ListUsers called
+2025/10/27 00:46:35.914013 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 00:46:36.013605 server.go:131: [RPC] ListUsers called
+2025/10/27 00:46:36.013706 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 00:46:36.114337 server.go:131: [RPC] ListUsers called
+2025/10/27 00:46:36.114423 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 00:46:36.214124 server.go:131: [RPC] ListUsers called
+2025/10/27 00:46:36.214208 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 00:46:36.313845 server.go:131: [RPC] ListUsers called
+2025/10/27 00:46:36.313893 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 00:46:36.413389 server.go:131: [RPC] ListUsers called
+2025/10/27 00:46:36.413432 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 00:46:36.514043 server.go:131: [RPC] ListUsers called
+2025/10/27 00:46:36.514089 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 00:46:36.613643 server.go:131: [RPC] ListUsers called
+2025/10/27 00:46:36.613685 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 00:46:36.714276 server.go:131: [RPC] ListUsers called
+2025/10/27 00:46:36.714329 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 00:46:36.813912 server.go:131: [RPC] ListUsers called
+2025/10/27 00:46:36.813952 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 00:46:36.913335 server.go:131: [RPC] ListUsers called
+2025/10/27 00:46:36.913402 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 00:46:37.014023 server.go:131: [RPC] ListUsers called
+2025/10/27 00:46:37.014068 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 00:46:37.113582 server.go:131: [RPC] ListUsers called
+2025/10/27 00:46:37.113662 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 00:46:37.214280 server.go:131: [RPC] ListUsers called
+2025/10/27 00:46:37.214321 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 00:46:37.313918 server.go:131: [RPC] ListUsers called
+2025/10/27 00:46:37.313967 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 00:46:37.413546 server.go:131: [RPC] ListUsers called
+2025/10/27 00:46:37.413587 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 00:46:37.514046 server.go:131: [RPC] ListUsers called
+2025/10/27 00:46:37.514128 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 00:46:37.613707 server.go:131: [RPC] ListUsers called
+2025/10/27 00:46:37.613747 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 00:46:37.713487 server.go:131: [RPC] ListUsers called
+2025/10/27 00:46:37.713573 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 00:46:55.174607 server.go:339: [CLIENT 1] desconectado (10.146.173.151:59962)
+2025/10/27 17:28:10.066620 server.go:306: Servidor RPC iniciando na porta 8932 ...
+2025/10/27 17:28:10.082477 server.go:309: IP principal (rota padrão): 10.132.249.106:8932
+2025/10/27 17:28:10.084190 server.go:312: IP local disponível: 10.132.249.106:8932
+2025/10/27 17:28:31.261471 server.go:331: [CLIENT 1] conectado de 10.132.249.106:51784
+2025/10/27 17:28:39.766248 server.go:83: [RPC] CreateUser called: username=callidem
+ NewPosX=16 NewPosY=5
+2025/10/27 17:28:39.766309 server.go:104: [RPC] CreateUser ok: username=callidem
+ id=1 pos=(16,5)
+2025/10/27 17:28:39.766801 server.go:111: [RPC] GetUser called: Username=callidem
+2025/10/27 17:28:39.766841 server.go:124: [RPC] GetUser ok: id=1 Username=%!s(int=16) pos=(5,%!d(MISSING))
+2025/10/27 17:28:39.767183 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:39.767214 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:39.868472 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:39.868547 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:39.970792 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:39.972970 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:40.068391 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:40.068490 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:40.168144 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:40.168194 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:40.268663 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:40.268730 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:40.369438 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:40.370464 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:40.467891 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:40.467940 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:40.568332 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:40.568385 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:40.668152 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:40.668196 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:40.767640 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:40.767778 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:40.868299 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:40.868351 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:40.967822 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:40.967870 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:41.068453 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:41.068495 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:41.168292 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:41.168335 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:41.267978 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:41.268016 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:41.368569 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:41.368612 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:41.468042 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:41.468085 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:41.568544 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:41.568591 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:41.668097 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:41.668140 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:41.768778 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:41.768819 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:41.868509 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:41.868554 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:41.967982 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:41.968034 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:42.068428 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:42.068482 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:42.168064 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:42.168102 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:42.267787 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:42.267832 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:42.368445 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:42.368487 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:42.468111 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:42.468215 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:42.567856 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:42.567933 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:42.668490 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:42.668608 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:42.768411 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:42.768453 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:42.868123 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:42.868211 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:42.967783 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:42.967847 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:43.068263 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:43.068317 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:43.167744 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:43.167863 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:43.268563 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:43.268796 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:43.368381 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:43.368422 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:43.468289 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:43.468330 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:43.568020 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:43.568061 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:43.668722 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:43.668801 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:43.768573 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:43.768614 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:43.868298 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:43.868339 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:43.967901 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:43.967948 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:44.068611 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:44.068652 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:44.168438 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:44.168479 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:44.268042 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:44.268092 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:44.367744 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:44.367829 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:44.468501 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:44.468541 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:44.568329 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:44.568467 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:44.668216 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:44.668296 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:44.767842 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:44.767980 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:44.867737 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:44.867854 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:44.968614 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:44.968741 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:45.068299 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:45.068378 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:45.168098 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:45.168146 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:45.267704 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:45.267783 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:45.368788 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:45.368835 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:45.468390 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:45.468456 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:45.568246 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:45.568292 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:45.667855 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:45.667899 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:28:45.768217 server.go:131: [RPC] ListUsers called
+2025/10/27 17:28:45.768261 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 17:29:25.459932 server.go:339: [CLIENT 1] desconectado (10.132.249.106:51784)
+2025/10/27 18:57:37.976270 server.go:306: Servidor RPC iniciando na porta 8932 ...
+2025/10/27 18:57:37.976352 server.go:309: IP principal (rota padrão): 10.132.249.106:8932
+2025/10/27 18:57:37.976432 server.go:312: IP local disponível: 10.132.249.106:8932
+2025/10/27 18:57:55.323496 server.go:331: [CLIENT 1] conectado de 10.132.249.106:52118
+2025/10/27 18:58:00.540565 server.go:83: [RPC] CreateUser called: username=callidem
+ NewPosX=16 NewPosY=5
+2025/10/27 18:58:00.540620 server.go:104: [RPC] CreateUser ok: username=callidem
+ id=1 pos=(16,5)
+2025/10/27 18:58:00.540919 server.go:111: [RPC] GetUser called: Username=callidem
+2025/10/27 18:58:00.540951 server.go:124: [RPC] GetUser ok: id=1 Username=%!s(int=16) pos=(5,%!d(MISSING))
+2025/10/27 18:58:00.541067 server.go:131: [RPC] ListUsers called
+2025/10/27 18:58:00.541087 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 18:58:00.641792 server.go:131: [RPC] ListUsers called
+2025/10/27 18:58:00.641859 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 18:58:00.742396 server.go:131: [RPC] ListUsers called
+2025/10/27 18:58:00.742456 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 18:58:00.842043 server.go:131: [RPC] ListUsers called
+2025/10/27 18:58:00.842084 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 18:58:00.941543 server.go:131: [RPC] ListUsers called
+2025/10/27 18:58:00.941588 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 18:58:01.042118 server.go:131: [RPC] ListUsers called
+2025/10/27 18:58:01.042204 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 18:58:01.141977 server.go:131: [RPC] ListUsers called
+2025/10/27 18:58:01.142020 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 18:58:01.241437 server.go:131: [RPC] ListUsers called
+2025/10/27 18:58:01.241516 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 18:58:01.342118 server.go:131: [RPC] ListUsers called
+2025/10/27 18:58:01.342209 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 18:58:01.441758 server.go:131: [RPC] ListUsers called
+2025/10/27 18:58:01.441799 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 18:58:01.542360 server.go:131: [RPC] ListUsers called
+2025/10/27 18:58:01.542403 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 18:58:01.641989 server.go:131: [RPC] ListUsers called
+2025/10/27 18:58:01.642030 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 18:58:01.741559 server.go:131: [RPC] ListUsers called
+2025/10/27 18:58:01.741599 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 18:58:01.842058 server.go:131: [RPC] ListUsers called
+2025/10/27 18:58:01.842136 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 18:58:01.941633 server.go:131: [RPC] ListUsers called
+2025/10/27 18:58:01.941673 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 18:58:02.042185 server.go:131: [RPC] ListUsers called
+2025/10/27 18:58:02.042232 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 18:58:02.141787 server.go:131: [RPC] ListUsers called
+2025/10/27 18:58:02.141825 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 18:58:02.242297 server.go:131: [RPC] ListUsers called
+2025/10/27 18:58:02.242339 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 18:58:02.341907 server.go:131: [RPC] ListUsers called
+2025/10/27 18:58:02.341991 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 18:58:02.441662 server.go:131: [RPC] ListUsers called
+2025/10/27 18:58:02.441704 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 18:58:02.542317 server.go:131: [RPC] ListUsers called
+2025/10/27 18:58:02.542352 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 18:58:02.641939 server.go:131: [RPC] ListUsers called
+2025/10/27 18:58:02.641982 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 18:58:02.741592 server.go:131: [RPC] ListUsers called
+2025/10/27 18:58:02.741635 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 18:58:02.841979 server.go:131: [RPC] ListUsers called
+2025/10/27 18:58:02.842039 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:09:25.404809 server.go:306: Servidor RPC iniciando na porta 8932 ...
+2025/10/27 19:09:25.404891 server.go:309: IP principal (rota padrão): 10.132.249.106:8932
+2025/10/27 19:09:25.404957 server.go:312: IP local disponível: 10.132.249.106:8932
+2025/10/27 19:09:44.825311 server.go:331: [CLIENT 1] conectado de 10.132.249.106:34008
+2025/10/27 19:09:54.970877 server.go:83: [RPC] CreateUser called: username=bruno
+ NewPosX=16 NewPosY=5
+2025/10/27 19:09:54.970929 server.go:104: [RPC] CreateUser ok: username=bruno
+ id=1 pos=(16,5)
+2025/10/27 19:09:54.971216 server.go:111: [RPC] GetUser called: Username=bruno
+2025/10/27 19:09:54.971234 server.go:124: [RPC] GetUser ok: id=1 Username=%!s(int=16) pos=(5,%!d(MISSING))
+2025/10/27 19:09:54.971344 server.go:131: [RPC] ListUsers called
+2025/10/27 19:09:54.971357 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:09:55.072029 server.go:131: [RPC] ListUsers called
+2025/10/27 19:09:55.072080 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:09:55.172559 server.go:131: [RPC] ListUsers called
+2025/10/27 19:09:55.172637 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:09:55.272205 server.go:131: [RPC] ListUsers called
+2025/10/27 19:09:55.272256 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:09:55.371818 server.go:131: [RPC] ListUsers called
+2025/10/27 19:09:55.371901 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:09:55.472510 server.go:131: [RPC] ListUsers called
+2025/10/27 19:09:55.472548 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:09:55.572150 server.go:131: [RPC] ListUsers called
+2025/10/27 19:09:55.572234 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:09:55.671751 server.go:131: [RPC] ListUsers called
+2025/10/27 19:09:55.671797 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:09:55.772422 server.go:131: [RPC] ListUsers called
+2025/10/27 19:09:55.772466 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:09:55.871947 server.go:131: [RPC] ListUsers called
+2025/10/27 19:09:55.871995 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:09:55.972569 server.go:131: [RPC] ListUsers called
+2025/10/27 19:09:55.972695 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:09:56.072260 server.go:131: [RPC] ListUsers called
+2025/10/27 19:09:56.072301 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:09:56.171727 server.go:131: [RPC] ListUsers called
+2025/10/27 19:09:56.171836 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:09:56.272604 server.go:131: [RPC] ListUsers called
+2025/10/27 19:09:56.272665 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:09:56.372177 server.go:131: [RPC] ListUsers called
+2025/10/27 19:09:56.372226 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:09:56.471616 server.go:131: [RPC] ListUsers called
+2025/10/27 19:09:56.471656 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:09:56.572170 server.go:131: [RPC] ListUsers called
+2025/10/27 19:09:56.572217 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:09:56.671718 server.go:131: [RPC] ListUsers called
+2025/10/27 19:09:56.671801 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:09:56.772320 server.go:131: [RPC] ListUsers called
+2025/10/27 19:09:56.772360 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:09:56.871887 server.go:131: [RPC] ListUsers called
+2025/10/27 19:09:56.871973 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:09:56.972537 server.go:131: [RPC] ListUsers called
+2025/10/27 19:09:56.972614 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:09:57.072140 server.go:131: [RPC] ListUsers called
+2025/10/27 19:09:57.072207 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:09:57.171737 server.go:131: [RPC] ListUsers called
+2025/10/27 19:09:57.171818 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:09:57.272449 server.go:131: [RPC] ListUsers called
+2025/10/27 19:09:57.272537 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:09:57.372014 server.go:131: [RPC] ListUsers called
+2025/10/27 19:09:57.372089 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:09:57.472601 server.go:131: [RPC] ListUsers called
+2025/10/27 19:09:57.472658 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:09:57.572204 server.go:131: [RPC] ListUsers called
+2025/10/27 19:09:57.572287 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:09:57.671748 server.go:131: [RPC] ListUsers called
+2025/10/27 19:09:57.671825 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:09:57.772277 server.go:131: [RPC] ListUsers called
+2025/10/27 19:09:57.772324 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:09:57.871818 server.go:131: [RPC] ListUsers called
+2025/10/27 19:09:57.871903 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:09:57.972329 server.go:131: [RPC] ListUsers called
+2025/10/27 19:09:57.972400 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:09:58.071822 server.go:131: [RPC] ListUsers called
+2025/10/27 19:09:58.071880 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:09:58.172287 server.go:131: [RPC] ListUsers called
+2025/10/27 19:09:58.172337 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:09:58.271895 server.go:131: [RPC] ListUsers called
+2025/10/27 19:09:58.271939 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:09:58.372470 server.go:131: [RPC] ListUsers called
+2025/10/27 19:09:58.372522 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:09:58.471988 server.go:131: [RPC] ListUsers called
+2025/10/27 19:09:58.472074 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:09:58.572694 server.go:131: [RPC] ListUsers called
+2025/10/27 19:09:58.572734 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:09:58.672432 server.go:131: [RPC] ListUsers called
+2025/10/27 19:09:58.672722 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:09:58.772172 server.go:131: [RPC] ListUsers called
+2025/10/27 19:09:58.772224 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:09:58.871689 server.go:131: [RPC] ListUsers called
+2025/10/27 19:09:58.871768 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:09:58.972359 server.go:131: [RPC] ListUsers called
+2025/10/27 19:09:58.972403 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:09:59.071918 server.go:131: [RPC] ListUsers called
+2025/10/27 19:09:59.071994 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:09:59.172418 server.go:131: [RPC] ListUsers called
+2025/10/27 19:09:59.172452 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:09:59.271861 server.go:131: [RPC] ListUsers called
+2025/10/27 19:09:59.271901 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:09:59.372288 server.go:131: [RPC] ListUsers called
+2025/10/27 19:09:59.372324 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:09:59.471779 server.go:131: [RPC] ListUsers called
+2025/10/27 19:09:59.471864 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:09:59.572383 server.go:131: [RPC] ListUsers called
+2025/10/27 19:09:59.572424 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:09:59.671931 server.go:131: [RPC] ListUsers called
+2025/10/27 19:09:59.671973 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:09:59.772468 server.go:131: [RPC] ListUsers called
+2025/10/27 19:09:59.772511 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:09:59.871949 server.go:131: [RPC] ListUsers called
+2025/10/27 19:09:59.872000 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:09:59.972469 server.go:131: [RPC] ListUsers called
+2025/10/27 19:09:59.972518 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:00.072051 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:00.072134 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:00.172588 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:00.172635 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:00.271983 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:00.272018 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:00.372414 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:00.372461 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:00.471943 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:00.471989 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:00.572422 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:00.572463 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:00.671881 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:00.671929 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:00.772361 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:00.772408 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:00.871943 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:00.871981 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:00.972414 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:00.972464 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:01.071851 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:01.071897 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:01.172357 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:01.172401 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:01.271844 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:01.271922 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:01.372433 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:01.372487 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:01.471940 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:01.471983 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:01.572432 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:01.572478 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:01.671989 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:01.672028 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:01.772426 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:01.772474 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:01.871995 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:01.872084 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:01.972605 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:01.972648 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:02.072272 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:02.072324 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:02.171804 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:02.171848 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:02.272358 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:02.272400 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:02.372026 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:02.372116 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:02.471693 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:02.471755 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:02.572218 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:02.572261 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:02.671596 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:02.671637 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:02.772062 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:02.772112 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:02.872498 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:02.872563 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:02.971949 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:02.971991 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:03.072488 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:03.072535 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:03.171958 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:03.171998 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:03.272478 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:03.272539 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:03.372079 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:03.372123 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:03.472644 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:03.472683 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:03.572133 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:03.572172 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:03.672609 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:03.672649 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:03.772213 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:03.772257 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:03.871654 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:03.871698 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:03.972183 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:03.972230 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:04.071596 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:04.071643 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:04.172285 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:04.172377 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:04.271890 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:04.271940 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:04.372385 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:04.372435 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:04.471869 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:04.471943 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:04.572461 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:04.572517 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:04.671925 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:04.671979 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:04.772450 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:04.772504 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:04.872013 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:04.872056 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:04.972517 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:04.972601 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:05.072041 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:05.072080 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:05.172521 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:05.172562 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:05.272029 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:05.272076 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:05.372652 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:05.372693 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:05.472164 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:05.472215 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:05.571723 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:05.571762 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:05.672185 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:05.672233 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:05.771776 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:05.771855 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:05.872403 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:05.872446 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:05.971969 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:05.972014 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:06.072501 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:06.072546 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:06.172084 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:06.172125 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:06.271804 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:06.271848 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:06.372344 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:06.372389 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:06.471832 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:06.471878 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:06.572443 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:06.572502 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:06.672015 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:06.672056 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:06.772440 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:06.772516 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:06.872002 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:06.872052 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:06.972638 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:06.972683 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:07.072142 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:07.072199 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:07.171631 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:07.171684 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:07.272156 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:07.272198 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:07.372652 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:07.372691 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:07.472201 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:07.472245 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:07.571774 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:07.571858 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:07.672471 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:07.672538 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:07.772186 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:07.772234 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:07.871882 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:07.871971 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:07.972706 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:07.972755 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:08.072610 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:08.072704 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:08.172368 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:08.172412 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:10:08.271621 server.go:131: [RPC] ListUsers called
+2025/10/27 19:10:08.271664 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:02.584396 server.go:306: Servidor RPC iniciando na porta 8932 ...
+2025/10/27 19:12:02.584483 server.go:309: IP principal (rota padrão): 10.132.249.106:8932
+2025/10/27 19:12:02.584572 server.go:312: IP local disponível: 10.132.249.106:8932
+2025/10/27 19:12:18.376526 server.go:331: [CLIENT 1] conectado de 10.132.249.106:53330
+2025/10/27 19:12:20.857619 server.go:83: [RPC] CreateUser called: username=bruno
+ NewPosX=16 NewPosY=5
+2025/10/27 19:12:20.857664 server.go:104: [RPC] CreateUser ok: username=bruno
+ id=1 pos=(16,5)
+2025/10/27 19:12:20.857885 server.go:111: [RPC] GetUser called: Username=bruno
+2025/10/27 19:12:20.857906 server.go:124: [RPC] GetUser ok: id=1 Username=%!s(int=16) pos=(5,%!d(MISSING))
+2025/10/27 19:12:20.858022 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:20.858041 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:20.958785 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:20.958864 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:21.058445 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:21.058543 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:21.159010 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:21.159049 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:21.258693 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:21.258778 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:21.359420 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:21.359505 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:21.459083 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:21.459123 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:21.558650 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:21.558731 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:21.659417 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:21.659465 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:21.758874 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:21.758920 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:21.858323 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:21.858360 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:21.959025 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:21.959109 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:22.058551 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:22.058599 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:22.159015 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:22.159078 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:22.258727 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:22.258768 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:22.358440 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:22.358584 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:22.459052 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:22.459104 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:22.558496 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:22.558571 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:22.659279 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:22.659320 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:22.758917 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:22.758955 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:22.858801 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:22.858909 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:22.958418 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:22.958507 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:23.059244 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:23.059329 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:23.159109 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:23.159151 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:23.258920 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:23.259002 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:23.358812 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:23.358902 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:23.458443 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:23.458576 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:23.559220 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:23.559262 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:23.658820 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:23.658903 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:23.758283 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:23.758339 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:23.858865 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:23.858907 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:23.958262 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:23.958315 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:24.058763 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:24.058805 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:24.159232 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:24.159288 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:24.258739 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:24.258801 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:24.359308 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:24.359353 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:24.458891 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:24.458950 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:24.558367 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:24.558416 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:24.658870 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:24.658933 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:24.758324 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:24.758378 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:24.858825 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:24.858907 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:24.958331 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:24.958368 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:25.058815 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:25.058869 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:25.158269 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:25.158312 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:25.258874 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:25.258912 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:25.358445 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:25.358482 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:25.459308 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:25.459382 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:25.558841 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:25.558892 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:25.658722 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:25.658780 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:25.758636 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:25.758689 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:25.858671 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:25.858714 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:25.958606 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:25.958653 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:26.059124 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:26.059165 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:26.158481 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:26.158526 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:26.259376 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:26.259430 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:26.358928 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:26.358964 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:26.458569 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:26.458611 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:26.559055 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:26.559106 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:26.658602 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:26.658715 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:26.758667 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:26.758752 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:26.858325 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:26.858371 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:26.958865 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:26.958906 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:27.058350 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:27.058398 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:27.159001 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:27.159044 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:27.258770 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:27.258899 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:27.358902 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:27.358947 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:27.458519 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:27.458675 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:27.558451 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:27.558531 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:27.659248 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:27.659429 server.go:142: [RPC] ListUsers ok: count=1
+2025/10/27 19:12:27.759066 server.go:131: [RPC] ListUsers called
+2025/10/27 19:12:27.759113 server.go:142: [RPC] ListUsers ok: count=1

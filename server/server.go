@@ -46,6 +46,7 @@ type User struct {
 }
 
 type ListUsersRequest struct {
+	ClientID int
 }
 type ListUsersReply struct {
 	Users []User
@@ -121,14 +122,14 @@ func (s *UserService) GetUser(req *GetUserRequest, resp *User) error {
 	}
 
 	*resp = u
-	log.Printf("[RPC] GetUser ok: id=%d Username=%s pos=(%d,%d)", u.ID, u.PosX, u.PosY)
+	log.Printf("[RPC] GetUser ok: id=%d Username=%s pos=(%d,%d)", u.ID, u.Username, u.PosX, u.PosY)
 	return nil
 }
 
 // ListUsers: método RPC para listar todos os usuários cadastrados.
 // Retorna um slice com cópias dos Users.
-func (s *UserService) ListUsers(_ *struct{}, resp *[]User) error {
-	log.Printf("[RPC] ListUsers called")
+func (s *UserService) ListUsers(u User, resp *[]User) error {
+	log.Printf("[RPC] ListUsers called by %d ", u.ID)
 
 	s.mu.Lock()
 	defer s.mu.Unlock()

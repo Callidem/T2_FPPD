@@ -1,0 +1,1202 @@
+2025/10/27 20:28:36 Criado: Username=bruno
+ pos=(16,5) ID=1
+2025/10/27 20:28:36 Buscado: Username = bruno
+ pos=(16,5)
+2025/10/27 20:28:36 Todos os usuários:
+2025/10/27 20:28:36   - Username = bruno
+ pos=(16,5)
+2025/10/27 20:28:37 UpdatePosition applied: seq=1 applied=1
+2025/10/27 20:28:37 UpdatePosition applied: seq=2 applied=2
+2025/10/27 20:28:38 UpdatePosition applied: seq=3 applied=3
+2025/10/27 20:28:38 UpdatePosition applied: seq=4 applied=4
+2025/10/27 20:28:38 UpdatePosition applied: seq=5 applied=5
+2025/10/27 20:28:39 UpdatePosition applied: seq=6 applied=6
+2025/10/27 20:28:39 UpdatePosition applied: seq=7 applied=7
+2025/10/27 20:28:39 UpdatePosition applied: seq=8 applied=8
+2025/10/27 20:28:39 UpdatePosition applied: seq=9 applied=9
+2025/10/27 20:28:39 UpdatePosition applied: seq=10 applied=10
+2025/10/27 20:28:39 UpdatePosition applied: seq=11 applied=11
+2025/10/27 20:28:39 UpdatePosition applied: seq=12 applied=12
+2025/10/27 20:28:39 UpdatePosition applied: seq=13 applied=13
+2025/10/27 20:28:39 UpdatePosition applied: seq=14 applied=14
+2025/10/27 20:28:39 UpdatePosition applied: seq=15 applied=15
+2025/10/27 20:28:39 UpdatePosition applied: seq=16 applied=16
+2025/10/27 20:28:39 UpdatePosition applied: seq=17 applied=17
+2025/10/27 20:28:39 UpdatePosition applied: seq=18 applied=18
+2025/10/27 20:28:40 UpdatePosition applied: seq=19 applied=19
+2025/10/27 20:28:40 UpdatePosition applied: seq=20 applied=20
+2025/10/27 20:28:40 UpdatePosition applied: seq=21 applied=21
+2025/10/27 20:28:40 UpdatePosition applied: seq=22 applied=22
+2025/10/27 20:28:40 UpdatePosition applied: seq=23 applied=23
+2025/10/27 20:28:40 UpdatePosition applied: seq=24 applied=24
+2025/10/27 20:28:40 UpdatePosition applied: seq=25 applied=25
+2025/10/27 20:28:41 UpdatePosition applied: seq=26 applied=26
+2025/10/27 20:28:41 UpdatePosition applied: seq=27 applied=27
+2025/10/27 20:28:41 UpdatePosition applied: seq=28 applied=28
+2025/10/27 20:28:41 UpdatePosition applied: seq=29 applied=29
+2025/10/27 20:28:42 UpdatePosition applied: seq=30 applied=30
+2025/10/27 20:28:42 UpdatePosition applied: seq=31 applied=31
+2025/10/27 20:28:42 UpdatePosition applied: seq=32 applied=32
+2025/10/27 20:28:42 UpdatePosition applied: seq=33 applied=33
+2025/10/27 20:28:43 UpdatePosition applied: seq=34 applied=34
+2025/10/27 20:28:43 UpdatePosition applied: seq=35 applied=35
+2025/10/27 20:28:43 UpdatePosition applied: seq=36 applied=36
+2025/10/27 20:28:43 UpdatePosition applied: seq=37 applied=37
+2025/10/27 20:28:44 UpdatePosition applied: seq=38 applied=38
+2025/10/27 20:28:44 UpdatePosition applied: seq=39 applied=39
+2025/10/27 20:28:44 UpdatePosition applied: seq=40 applied=40
+2025/10/27 20:28:44 UpdatePosition applied: seq=41 applied=41
+2025/10/27 20:28:44 UpdatePosition applied: seq=42 applied=42
+2025/10/27 20:28:44 UpdatePosition applied: seq=43 applied=43
+2025/10/27 20:28:44 UpdatePosition applied: seq=44 applied=44
+2025/10/27 20:28:44 UpdatePosition applied: seq=45 applied=45
+2025/10/27 20:28:45 UpdatePosition applied: seq=46 applied=46
+2025/10/27 20:28:45 UpdatePosition applied: seq=47 applied=47
+2025/10/27 20:28:45 UpdatePosition applied: seq=48 applied=48
+2025/10/27 20:28:45 UpdatePosition applied: seq=49 applied=49
+2025/10/27 20:28:45 UpdatePosition applied: seq=50 applied=50
+2025/10/27 20:28:46 UpdatePosition applied: seq=51 applied=51
+2025/10/27 20:28:46 UpdatePosition applied: seq=52 applied=52
+2025/10/27 20:28:46 UpdatePosition applied: seq=53 applied=53
+2025/10/27 20:28:46 UpdatePosition applied: seq=54 applied=54
+2025/10/27 20:28:46 UpdatePosition applied: seq=55 applied=55
+2025/10/27 20:28:46 UpdatePosition applied: seq=56 applied=56
+2025/10/27 20:28:46 UpdatePosition applied: seq=57 applied=57
+2025/10/27 20:28:47 UpdatePosition applied: seq=58 applied=58
+2025/10/27 20:28:47 UpdatePosition applied: seq=59 applied=59
+2025/10/27 20:28:47 UpdatePosition applied: seq=60 applied=60
+2025/10/27 20:28:47 UpdatePosition applied: seq=61 applied=61
+2025/10/27 20:28:47 UpdatePosition applied: seq=62 applied=62
+2025/10/27 20:28:47 UpdatePosition applied: seq=63 applied=63
+2025/10/27 20:28:48 UpdatePosition applied: seq=64 applied=64
+2025/10/27 20:28:48 UpdatePosition applied: seq=65 applied=65
+2025/10/27 20:28:48 UpdatePosition applied: seq=66 applied=66
+2025/10/27 20:28:48 UpdatePosition applied: seq=67 applied=67
+2025/10/27 20:28:48 UpdatePosition applied: seq=68 applied=68
+2025/10/27 20:28:48 UpdatePosition applied: seq=69 applied=69
+2025/10/27 20:28:48 UpdatePosition applied: seq=70 applied=70
+2025/10/27 20:28:48 UpdatePosition applied: seq=71 applied=71
+2025/10/27 20:28:48 UpdatePosition applied: seq=72 applied=72
+2025/10/27 20:28:48 UpdatePosition applied: seq=73 applied=73
+2025/10/27 20:28:48 UpdatePosition applied: seq=74 applied=74
+2025/10/27 20:28:48 UpdatePosition applied: seq=75 applied=75
+2025/10/27 20:28:48 UpdatePosition applied: seq=76 applied=76
+2025/10/27 20:28:49 UpdatePosition applied: seq=77 applied=77
+2025/10/27 20:28:49 UpdatePosition applied: seq=78 applied=78
+2025/10/27 20:28:49 UpdatePosition applied: seq=79 applied=79
+2025/10/27 20:28:49 UpdatePosition applied: seq=80 applied=80
+2025/10/27 20:28:49 UpdatePosition applied: seq=81 applied=81
+2025/10/27 20:28:49 UpdatePosition applied: seq=82 applied=82
+2025/10/27 20:28:49 UpdatePosition applied: seq=83 applied=83
+2025/10/27 20:28:49 UpdatePosition applied: seq=84 applied=84
+2025/10/27 20:28:49 UpdatePosition applied: seq=85 applied=85
+2025/10/27 20:28:49 UpdatePosition applied: seq=86 applied=86
+2025/10/27 20:28:49 UpdatePosition applied: seq=87 applied=87
+2025/10/27 20:28:49 UpdatePosition applied: seq=88 applied=88
+2025/10/27 20:28:49 UpdatePosition applied: seq=89 applied=89
+2025/10/27 20:28:50 UpdatePosition applied: seq=90 applied=90
+2025/10/27 20:28:50 UpdatePosition applied: seq=91 applied=91
+2025/10/27 20:28:50 UpdatePosition applied: seq=92 applied=92
+2025/10/27 20:28:50 UpdatePosition applied: seq=93 applied=93
+2025/10/27 20:28:50 UpdatePosition applied: seq=94 applied=94
+2025/10/27 20:28:50 UpdatePosition applied: seq=95 applied=95
+2025/10/27 20:28:50 UpdatePosition applied: seq=96 applied=96
+2025/10/27 20:28:50 UpdatePosition applied: seq=97 applied=97
+2025/10/27 20:28:50 UpdatePosition applied: seq=98 applied=98
+2025/10/27 20:28:51 UpdatePosition applied: seq=99 applied=99
+2025/10/27 20:28:51 UpdatePosition applied: seq=100 applied=100
+2025/10/27 20:28:51 UpdatePosition applied: seq=101 applied=101
+2025/10/27 20:28:51 UpdatePosition applied: seq=102 applied=102
+2025/10/27 20:28:51 UpdatePosition applied: seq=103 applied=103
+2025/10/27 20:28:52 UpdatePosition applied: seq=104 applied=104
+2025/10/27 20:28:53 UpdatePosition applied: seq=105 applied=105
+2025/10/27 20:28:53 UpdatePosition applied: seq=106 applied=106
+2025/10/27 20:28:53 UpdatePosition applied: seq=107 applied=107
+2025/10/27 20:28:53 UpdatePosition applied: seq=108 applied=108
+2025/10/27 20:28:54 UpdatePosition applied: seq=109 applied=109
+2025/10/27 20:28:54 UpdatePosition applied: seq=110 applied=110
+2025/10/27 20:28:54 UpdatePosition applied: seq=111 applied=111
+2025/10/27 20:28:54 UpdatePosition applied: seq=112 applied=112
+2025/10/27 20:28:54 UpdatePosition applied: seq=113 applied=113
+2025/10/27 20:28:54 UpdatePosition applied: seq=114 applied=114
+2025/10/27 20:28:54 UpdatePosition applied: seq=115 applied=115
+2025/10/27 20:28:54 UpdatePosition applied: seq=116 applied=116
+2025/10/27 20:28:54 UpdatePosition applied: seq=117 applied=117
+2025/10/27 20:28:55 UpdatePosition applied: seq=118 applied=118
+2025/10/27 20:28:55 UpdatePosition applied: seq=119 applied=119
+2025/10/27 20:28:55 UpdatePosition applied: seq=120 applied=120
+2025/10/27 20:28:55 UpdatePosition applied: seq=121 applied=121
+2025/10/27 20:28:55 UpdatePosition applied: seq=122 applied=122
+2025/10/27 20:28:55 UpdatePosition applied: seq=123 applied=123
+2025/10/27 20:28:55 UpdatePosition applied: seq=124 applied=124
+2025/10/27 20:28:55 UpdatePosition applied: seq=125 applied=125
+2025/10/27 20:28:55 UpdatePosition applied: seq=126 applied=126
+2025/10/27 20:28:55 UpdatePosition applied: seq=127 applied=127
+2025/10/27 20:28:55 UpdatePosition applied: seq=128 applied=128
+2025/10/27 20:28:55 UpdatePosition applied: seq=129 applied=129
+2025/10/27 20:28:56 UpdatePosition applied: seq=130 applied=130
+2025/10/27 20:28:56 UpdatePosition applied: seq=131 applied=131
+2025/10/27 20:28:56 UpdatePosition applied: seq=132 applied=132
+2025/10/27 20:28:56 UpdatePosition applied: seq=133 applied=133
+2025/10/27 20:28:56 UpdatePosition applied: seq=134 applied=134
+2025/10/27 20:28:56 UpdatePosition applied: seq=135 applied=135
+2025/10/27 20:28:56 UpdatePosition applied: seq=136 applied=136
+2025/10/27 20:28:56 UpdatePosition applied: seq=137 applied=137
+2025/10/27 20:28:56 UpdatePosition applied: seq=138 applied=138
+2025/10/27 20:28:56 UpdatePosition applied: seq=139 applied=139
+2025/10/27 20:28:56 UpdatePosition applied: seq=140 applied=140
+2025/10/27 20:28:56 UpdatePosition applied: seq=141 applied=141
+2025/10/27 20:28:56 UpdatePosition applied: seq=142 applied=142
+2025/10/27 20:28:56 UpdatePosition applied: seq=143 applied=143
+2025/10/27 20:28:56 UpdatePosition applied: seq=144 applied=144
+2025/10/27 20:28:56 UpdatePosition applied: seq=145 applied=145
+2025/10/27 20:28:56 UpdatePosition applied: seq=146 applied=146
+2025/10/27 20:28:56 UpdatePosition applied: seq=147 applied=147
+2025/10/27 20:28:57 UpdatePosition applied: seq=148 applied=148
+2025/10/27 20:28:57 UpdatePosition applied: seq=149 applied=149
+2025/10/27 20:28:57 UpdatePosition applied: seq=150 applied=150
+2025/10/27 20:28:57 UpdatePosition applied: seq=151 applied=151
+2025/10/27 20:28:58 UpdatePosition applied: seq=152 applied=152
+2025/10/27 20:28:58 UpdatePosition applied: seq=153 applied=153
+2025/10/27 20:28:58 UpdatePosition applied: seq=154 applied=154
+2025/10/27 20:28:58 UpdatePosition applied: seq=155 applied=155
+2025/10/27 20:28:58 UpdatePosition applied: seq=156 applied=156
+2025/10/27 20:28:58 UpdatePosition applied: seq=157 applied=157
+2025/10/27 20:28:58 UpdatePosition applied: seq=158 applied=158
+2025/10/27 20:28:58 UpdatePosition applied: seq=159 applied=159
+2025/10/27 20:28:58 UpdatePosition applied: seq=160 applied=160
+2025/10/27 20:28:58 UpdatePosition applied: seq=161 applied=161
+2025/10/27 20:28:58 UpdatePosition applied: seq=162 applied=162
+2025/10/27 20:28:58 UpdatePosition applied: seq=163 applied=163
+2025/10/27 20:28:58 UpdatePosition applied: seq=164 applied=164
+2025/10/27 20:28:58 UpdatePosition applied: seq=165 applied=165
+2025/10/27 20:28:58 UpdatePosition applied: seq=166 applied=166
+2025/10/27 20:28:58 UpdatePosition applied: seq=167 applied=167
+2025/10/27 20:28:58 UpdatePosition applied: seq=168 applied=168
+2025/10/27 20:28:58 UpdatePosition applied: seq=169 applied=169
+2025/10/27 20:28:59 UpdatePosition applied: seq=170 applied=170
+2025/10/27 20:28:59 UpdatePosition applied: seq=171 applied=171
+2025/10/27 20:28:59 UpdatePosition applied: seq=172 applied=172
+2025/10/27 20:28:59 UpdatePosition applied: seq=173 applied=173
+2025/10/27 20:28:59 UpdatePosition applied: seq=174 applied=174
+2025/10/27 20:28:59 UpdatePosition applied: seq=175 applied=175
+2025/10/27 20:29:00 UpdatePosition applied: seq=176 applied=176
+2025/10/27 20:29:00 UpdatePosition applied: seq=177 applied=177
+2025/10/27 20:29:00 UpdatePosition applied: seq=178 applied=178
+2025/10/27 20:29:00 UpdatePosition applied: seq=179 applied=179
+2025/10/27 20:29:00 UpdatePosition applied: seq=180 applied=180
+2025/10/27 20:29:00 UpdatePosition applied: seq=181 applied=181
+2025/10/27 20:29:00 UpdatePosition applied: seq=182 applied=182
+2025/10/27 20:29:00 UpdatePosition applied: seq=183 applied=183
+2025/10/27 20:29:00 UpdatePosition applied: seq=184 applied=184
+2025/10/27 20:29:00 UpdatePosition applied: seq=185 applied=185
+2025/10/27 20:29:00 UpdatePosition applied: seq=186 applied=186
+2025/10/27 20:29:01 UpdatePosition applied: seq=187 applied=187
+2025/10/27 20:29:01 UpdatePosition applied: seq=188 applied=188
+2025/10/27 20:29:01 UpdatePosition applied: seq=189 applied=189
+2025/10/27 20:29:01 UpdatePosition applied: seq=190 applied=190
+2025/10/27 20:29:01 UpdatePosition applied: seq=191 applied=191
+2025/10/27 20:29:01 UpdatePosition applied: seq=192 applied=192
+2025/10/27 20:29:01 UpdatePosition applied: seq=193 applied=193
+2025/10/27 20:29:01 UpdatePosition applied: seq=194 applied=194
+2025/10/27 20:29:01 UpdatePosition applied: seq=195 applied=195
+2025/10/27 20:29:02 UpdatePosition applied: seq=196 applied=196
+2025/10/27 20:29:02 UpdatePosition applied: seq=197 applied=197
+2025/10/27 20:29:02 UpdatePosition applied: seq=198 applied=198
+2025/10/27 20:29:02 UpdatePosition applied: seq=199 applied=199
+2025/10/27 20:29:02 UpdatePosition applied: seq=200 applied=200
+2025/10/27 20:29:02 UpdatePosition applied: seq=201 applied=201
+2025/10/27 20:29:02 UpdatePosition applied: seq=202 applied=202
+2025/10/27 20:29:02 UpdatePosition applied: seq=203 applied=203
+2025/10/27 20:29:02 UpdatePosition applied: seq=204 applied=204
+2025/10/27 20:29:02 UpdatePosition applied: seq=205 applied=205
+2025/10/27 20:29:02 UpdatePosition applied: seq=206 applied=206
+2025/10/27 20:29:03 UpdatePosition applied: seq=207 applied=207
+2025/10/27 20:29:03 UpdatePosition applied: seq=208 applied=208
+2025/10/27 20:29:03 UpdatePosition applied: seq=209 applied=209
+2025/10/27 20:29:03 UpdatePosition applied: seq=210 applied=210
+2025/10/27 20:29:03 UpdatePosition applied: seq=211 applied=211
+2025/10/27 20:29:03 UpdatePosition applied: seq=212 applied=212
+2025/10/27 20:29:03 UpdatePosition applied: seq=213 applied=213
+2025/10/27 20:29:04 UpdatePosition applied: seq=214 applied=214
+2025/10/27 20:29:04 UpdatePosition applied: seq=215 applied=215
+2025/10/27 20:29:04 UpdatePosition applied: seq=216 applied=216
+2025/10/27 20:29:04 UpdatePosition applied: seq=217 applied=217
+2025/10/27 20:29:04 UpdatePosition applied: seq=218 applied=218
+2025/10/27 20:29:05 UpdatePosition applied: seq=219 applied=219
+2025/10/27 20:29:05 UpdatePosition applied: seq=220 applied=220
+2025/10/27 20:29:05 UpdatePosition applied: seq=221 applied=221
+2025/10/27 20:29:05 UpdatePosition applied: seq=222 applied=222
+2025/10/27 20:29:05 UpdatePosition applied: seq=223 applied=223
+2025/10/27 20:29:05 UpdatePosition applied: seq=224 applied=224
+2025/10/27 20:29:06 UpdatePosition applied: seq=225 applied=225
+2025/10/27 20:29:06 UpdatePosition applied: seq=226 applied=226
+2025/10/27 20:29:06 UpdatePosition applied: seq=227 applied=227
+2025/10/27 20:29:06 UpdatePosition applied: seq=228 applied=228
+2025/10/27 20:29:13 UpdatePosition applied: seq=229 applied=229
+2025/10/27 20:29:13 UpdatePosition applied: seq=230 applied=230
+2025/10/27 20:29:13 UpdatePosition applied: seq=231 applied=231
+2025/10/27 20:29:13 UpdatePosition applied: seq=232 applied=232
+2025/10/27 20:29:13 UpdatePosition applied: seq=233 applied=233
+2025/10/27 20:29:14 UpdatePosition applied: seq=234 applied=234
+2025/10/27 20:29:14 UpdatePosition applied: seq=235 applied=235
+2025/10/27 20:29:14 UpdatePosition applied: seq=236 applied=236
+2025/10/27 20:29:14 UpdatePosition applied: seq=237 applied=237
+2025/10/27 20:29:14 UpdatePosition applied: seq=238 applied=238
+2025/10/27 20:29:15 UpdatePosition applied: seq=239 applied=239
+2025/10/27 20:29:15 UpdatePosition applied: seq=240 applied=240
+2025/10/27 20:29:15 UpdatePosition applied: seq=241 applied=241
+2025/10/27 20:29:15 UpdatePosition applied: seq=242 applied=242
+2025/10/27 20:29:15 UpdatePosition applied: seq=243 applied=243
+2025/10/27 20:29:15 UpdatePosition applied: seq=244 applied=244
+2025/10/27 20:29:15 UpdatePosition applied: seq=245 applied=245
+2025/10/27 20:29:16 UpdatePosition applied: seq=246 applied=246
+2025/10/27 20:29:16 UpdatePosition applied: seq=247 applied=247
+2025/10/27 20:29:16 UpdatePosition applied: seq=248 applied=248
+2025/10/27 20:29:17 UpdatePosition applied: seq=249 applied=249
+2025/10/27 20:29:17 UpdatePosition applied: seq=250 applied=250
+2025/10/27 20:29:17 UpdatePosition applied: seq=251 applied=251
+2025/10/27 20:29:17 UpdatePosition applied: seq=252 applied=252
+2025/10/27 20:29:17 UpdatePosition applied: seq=253 applied=253
+2025/10/27 20:29:18 UpdatePosition applied: seq=254 applied=254
+2025/10/27 20:29:18 UpdatePosition applied: seq=255 applied=255
+2025/10/27 20:29:18 UpdatePosition applied: seq=256 applied=256
+2025/10/27 20:29:18 UpdatePosition applied: seq=257 applied=257
+2025/10/27 20:29:18 UpdatePosition applied: seq=258 applied=258
+2025/10/27 20:29:19 UpdatePosition applied: seq=259 applied=259
+2025/10/27 20:29:19 UpdatePosition applied: seq=260 applied=260
+2025/10/27 20:29:19 UpdatePosition applied: seq=261 applied=261
+2025/10/27 20:29:19 UpdatePosition applied: seq=262 applied=262
+2025/10/27 20:29:19 UpdatePosition applied: seq=263 applied=263
+2025/10/27 20:29:19 UpdatePosition applied: seq=264 applied=264
+2025/10/27 20:29:20 UpdatePosition applied: seq=265 applied=265
+2025/10/27 20:29:20 UpdatePosition applied: seq=266 applied=266
+2025/10/27 20:29:20 UpdatePosition applied: seq=267 applied=267
+2025/10/27 20:29:20 UpdatePosition applied: seq=268 applied=268
+2025/10/27 20:29:20 UpdatePosition applied: seq=269 applied=269
+2025/10/27 20:29:21 UpdatePosition applied: seq=270 applied=270
+2025/10/27 20:29:21 UpdatePosition applied: seq=271 applied=271
+2025/10/27 20:29:21 UpdatePosition applied: seq=272 applied=272
+2025/10/27 20:29:21 UpdatePosition applied: seq=273 applied=273
+2025/10/27 20:29:22 UpdatePosition applied: seq=274 applied=274
+2025/10/27 20:29:22 UpdatePosition applied: seq=275 applied=275
+2025/10/27 20:29:22 UpdatePosition applied: seq=276 applied=276
+2025/10/27 20:29:22 UpdatePosition applied: seq=277 applied=277
+2025/10/27 20:29:22 UpdatePosition applied: seq=278 applied=278
+2025/10/27 20:29:22 UpdatePosition applied: seq=279 applied=279
+2025/10/27 20:29:22 UpdatePosition applied: seq=280 applied=280
+2025/10/27 20:29:22 UpdatePosition applied: seq=281 applied=281
+2025/10/27 20:29:23 UpdatePosition applied: seq=282 applied=282
+2025/10/27 20:29:23 UpdatePosition applied: seq=283 applied=283
+2025/10/27 20:29:23 UpdatePosition applied: seq=284 applied=284
+2025/10/27 20:29:23 UpdatePosition applied: seq=285 applied=285
+2025/10/27 20:29:23 UpdatePosition applied: seq=286 applied=286
+2025/10/27 20:29:23 UpdatePosition applied: seq=287 applied=287
+2025/10/27 20:29:23 UpdatePosition applied: seq=288 applied=288
+2025/10/27 20:29:23 UpdatePosition applied: seq=289 applied=289
+2025/10/27 20:29:23 UpdatePosition applied: seq=290 applied=290
+2025/10/27 20:29:23 UpdatePosition applied: seq=291 applied=291
+2025/10/27 20:29:23 UpdatePosition applied: seq=292 applied=292
+2025/10/27 20:29:23 UpdatePosition applied: seq=293 applied=293
+2025/10/27 20:29:24 UpdatePosition applied: seq=294 applied=294
+2025/10/27 20:29:24 UpdatePosition applied: seq=295 applied=295
+2025/10/27 20:29:24 UpdatePosition applied: seq=296 applied=296
+2025/10/27 20:29:24 UpdatePosition applied: seq=297 applied=297
+2025/10/27 20:29:24 UpdatePosition applied: seq=298 applied=298
+2025/10/27 20:29:24 UpdatePosition applied: seq=299 applied=299
+2025/10/27 20:29:25 UpdatePosition applied: seq=300 applied=300
+2025/10/27 20:29:25 UpdatePosition applied: seq=301 applied=301
+2025/10/27 20:29:26 UpdatePosition applied: seq=302 applied=302
+2025/10/27 20:29:26 UpdatePosition applied: seq=303 applied=303
+2025/10/27 20:29:26 UpdatePosition applied: seq=304 applied=304
+2025/10/27 20:29:27 UpdatePosition applied: seq=305 applied=305
+2025/10/27 20:29:27 UpdatePosition applied: seq=306 applied=306
+2025/10/27 20:29:27 UpdatePosition applied: seq=307 applied=307
+2025/10/27 20:29:27 UpdatePosition applied: seq=308 applied=308
+2025/10/27 20:29:27 UpdatePosition applied: seq=309 applied=309
+2025/10/27 20:29:27 UpdatePosition applied: seq=310 applied=310
+2025/10/27 20:29:27 UpdatePosition applied: seq=311 applied=311
+2025/10/27 20:29:27 UpdatePosition applied: seq=312 applied=312
+2025/10/27 20:29:27 UpdatePosition applied: seq=313 applied=313
+2025/10/27 20:29:28 UpdatePosition applied: seq=314 applied=314
+2025/10/27 20:29:28 UpdatePosition applied: seq=315 applied=315
+2025/10/27 20:29:28 UpdatePosition applied: seq=316 applied=316
+2025/10/27 20:29:28 UpdatePosition applied: seq=317 applied=317
+2025/10/27 20:29:28 UpdatePosition applied: seq=318 applied=318
+2025/10/27 20:29:28 UpdatePosition applied: seq=319 applied=319
+2025/10/27 20:29:28 UpdatePosition applied: seq=320 applied=320
+2025/10/27 20:29:28 UpdatePosition applied: seq=321 applied=321
+2025/10/27 20:29:28 UpdatePosition applied: seq=322 applied=322
+2025/10/27 20:29:28 UpdatePosition applied: seq=323 applied=323
+2025/10/27 20:29:38 Criado: Username=blablo
+ pos=(16,5) ID=2
+2025/10/27 20:29:38 Buscado: Username = blablo
+ pos=(16,5)
+2025/10/27 20:29:38 Todos os usuários:
+2025/10/27 20:29:38   - Username = bruno
+ pos=(17,4)
+2025/10/27 20:29:38   - Username = blablo
+ pos=(16,5)
+2025/10/27 20:29:39 UpdatePosition applied: seq=1 applied=1
+2025/10/27 20:29:39 UpdatePosition applied: seq=2 applied=2
+2025/10/27 20:29:39 UpdatePosition applied: seq=3 applied=3
+2025/10/27 20:29:40 UpdatePosition applied: seq=4 applied=4
+2025/10/27 20:29:40 UpdatePosition applied: seq=5 applied=5
+2025/10/27 20:29:40 UpdatePosition applied: seq=6 applied=6
+2025/10/27 20:29:40 UpdatePosition applied: seq=7 applied=7
+2025/10/27 20:29:42 UpdatePosition applied: seq=8 applied=8
+2025/10/27 20:29:42 UpdatePosition applied: seq=9 applied=9
+2025/10/27 20:29:42 UpdatePosition applied: seq=10 applied=10
+2025/10/27 20:29:42 UpdatePosition applied: seq=11 applied=11
+2025/10/27 20:29:42 UpdatePosition applied: seq=12 applied=12
+2025/10/27 20:29:42 UpdatePosition applied: seq=13 applied=13
+2025/10/27 20:29:42 UpdatePosition applied: seq=14 applied=14
+2025/10/27 20:29:47 UpdatePosition applied: seq=324 applied=324
+2025/10/27 20:29:48 UpdatePosition applied: seq=325 applied=325
+2025/10/27 20:29:48 UpdatePosition applied: seq=326 applied=326
+2025/10/27 20:29:48 UpdatePosition applied: seq=327 applied=327
+2025/10/27 20:29:48 UpdatePosition applied: seq=328 applied=328
+2025/10/27 20:29:49 UpdatePosition applied: seq=329 applied=329
+2025/10/27 20:29:49 UpdatePosition applied: seq=330 applied=330
+2025/10/27 20:29:49 UpdatePosition applied: seq=331 applied=331
+2025/10/27 20:29:49 UpdatePosition applied: seq=332 applied=332
+2025/10/27 20:29:49 UpdatePosition applied: seq=333 applied=333
+2025/10/27 20:29:49 UpdatePosition applied: seq=334 applied=334
+2025/10/27 20:29:49 UpdatePosition applied: seq=335 applied=335
+2025/10/27 20:29:49 UpdatePosition applied: seq=336 applied=336
+2025/10/27 20:29:49 UpdatePosition applied: seq=337 applied=337
+2025/10/27 20:29:49 UpdatePosition applied: seq=338 applied=338
+2025/10/27 20:29:49 UpdatePosition applied: seq=339 applied=339
+2025/10/27 20:29:49 UpdatePosition applied: seq=340 applied=340
+2025/10/27 20:29:49 UpdatePosition applied: seq=341 applied=341
+2025/10/27 20:29:49 UpdatePosition applied: seq=342 applied=342
+2025/10/27 20:29:49 UpdatePosition applied: seq=343 applied=343
+2025/10/27 20:29:49 UpdatePosition applied: seq=344 applied=344
+2025/10/27 20:29:49 UpdatePosition applied: seq=345 applied=345
+2025/10/27 20:29:50 UpdatePosition applied: seq=346 applied=346
+2025/10/27 20:29:50 UpdatePosition applied: seq=347 applied=347
+2025/10/27 20:29:50 UpdatePosition applied: seq=348 applied=348
+2025/10/27 20:29:50 UpdatePosition applied: seq=349 applied=349
+2025/10/27 20:29:50 UpdatePosition applied: seq=350 applied=350
+2025/10/27 20:29:50 UpdatePosition applied: seq=351 applied=351
+2025/10/27 20:29:50 UpdatePosition applied: seq=352 applied=352
+2025/10/27 20:29:51 UpdatePosition applied: seq=353 applied=353
+2025/10/27 20:29:51 UpdatePosition applied: seq=354 applied=354
+2025/10/27 20:29:51 UpdatePosition applied: seq=355 applied=355
+2025/10/27 20:29:51 UpdatePosition applied: seq=356 applied=356
+2025/10/27 20:29:51 UpdatePosition applied: seq=357 applied=357
+2025/10/27 20:29:51 UpdatePosition applied: seq=358 applied=358
+2025/10/27 20:29:51 UpdatePosition applied: seq=359 applied=359
+2025/10/27 20:29:51 UpdatePosition applied: seq=360 applied=360
+2025/10/27 20:29:51 UpdatePosition applied: seq=361 applied=361
+2025/10/27 20:29:52 UpdatePosition applied: seq=362 applied=362
+2025/10/27 20:29:52 UpdatePosition applied: seq=363 applied=363
+2025/10/27 20:29:52 UpdatePosition applied: seq=364 applied=364
+2025/10/27 20:29:52 UpdatePosition applied: seq=365 applied=365
+2025/10/27 20:29:52 UpdatePosition applied: seq=366 applied=366
+2025/10/27 20:29:52 UpdatePosition applied: seq=367 applied=367
+2025/10/27 20:29:53 UpdatePosition applied: seq=368 applied=368
+2025/10/27 20:29:53 UpdatePosition applied: seq=369 applied=369
+2025/10/27 20:29:53 UpdatePosition applied: seq=370 applied=370
+2025/10/27 20:29:53 UpdatePosition applied: seq=371 applied=371
+2025/10/27 20:29:53 UpdatePosition applied: seq=372 applied=372
+2025/10/27 20:29:53 UpdatePosition applied: seq=373 applied=373
+2025/10/27 20:29:53 UpdatePosition applied: seq=374 applied=374
+2025/10/27 20:29:53 UpdatePosition applied: seq=375 applied=375
+2025/10/27 20:29:53 UpdatePosition applied: seq=376 applied=376
+2025/10/27 20:29:53 UpdatePosition applied: seq=377 applied=377
+2025/10/27 20:29:53 UpdatePosition applied: seq=378 applied=378
+2025/10/27 20:29:53 UpdatePosition applied: seq=379 applied=379
+2025/10/27 20:29:53 UpdatePosition applied: seq=380 applied=380
+2025/10/27 20:29:53 UpdatePosition applied: seq=381 applied=381
+2025/10/27 20:29:53 UpdatePosition applied: seq=382 applied=382
+2025/10/27 20:29:53 UpdatePosition applied: seq=383 applied=383
+2025/10/27 20:29:53 UpdatePosition applied: seq=384 applied=384
+2025/10/27 20:29:53 UpdatePosition applied: seq=385 applied=385
+2025/10/27 20:29:54 UpdatePosition applied: seq=386 applied=386
+2025/10/27 20:29:54 UpdatePosition applied: seq=387 applied=387
+2025/10/27 20:29:54 UpdatePosition applied: seq=388 applied=388
+2025/10/27 20:29:54 UpdatePosition applied: seq=389 applied=389
+2025/10/27 20:29:54 UpdatePosition applied: seq=390 applied=390
+2025/10/27 20:29:54 UpdatePosition applied: seq=391 applied=391
+2025/10/27 20:29:55 UpdatePosition applied: seq=392 applied=392
+2025/10/27 20:29:55 UpdatePosition applied: seq=393 applied=393
+2025/10/27 20:29:55 UpdatePosition applied: seq=394 applied=394
+2025/10/27 20:29:56 UpdatePosition applied: seq=15 applied=15
+2025/10/27 20:29:57 UpdatePosition applied: seq=16 applied=16
+2025/10/27 20:29:57 UpdatePosition applied: seq=17 applied=17
+2025/10/27 20:29:57 UpdatePosition applied: seq=18 applied=18
+2025/10/27 20:29:58 UpdatePosition applied: seq=19 applied=19
+2025/10/27 20:29:58 UpdatePosition applied: seq=20 applied=20
+2025/10/27 20:29:58 UpdatePosition applied: seq=21 applied=21
+2025/10/27 20:29:58 UpdatePosition applied: seq=22 applied=22
+2025/10/27 20:29:59 UpdatePosition applied: seq=23 applied=23
+2025/10/27 20:29:59 UpdatePosition applied: seq=24 applied=24
+2025/10/27 20:29:59 UpdatePosition applied: seq=25 applied=25
+2025/10/27 20:29:59 UpdatePosition applied: seq=26 applied=26
+2025/10/27 20:30:07 UpdatePosition applied: seq=27 applied=27
+2025/10/27 20:30:07 UpdatePosition applied: seq=28 applied=28
+2025/10/27 20:30:07 UpdatePosition applied: seq=29 applied=29
+2025/10/27 20:30:07 UpdatePosition applied: seq=30 applied=30
+2025/10/27 20:30:21 UpdatePosition applied: seq=31 applied=31
+2025/10/27 20:30:22 UpdatePosition applied: seq=32 applied=32
+2025/10/27 20:30:22 UpdatePosition applied: seq=33 applied=33
+2025/10/27 20:30:22 UpdatePosition applied: seq=34 applied=34
+2025/10/27 20:30:23 UpdatePosition applied: seq=35 applied=35
+2025/10/27 20:30:23 UpdatePosition applied: seq=36 applied=36
+2025/10/27 20:30:23 UpdatePosition applied: seq=37 applied=37
+2025/10/27 20:30:24 UpdatePosition applied: seq=38 applied=38
+2025/10/27 20:30:24 UpdatePosition applied: seq=39 applied=39
+2025/10/27 20:30:25 UpdatePosition applied: seq=40 applied=40
+2025/10/27 20:30:25 UpdatePosition applied: seq=41 applied=41
+2025/10/27 20:30:26 UpdatePosition applied: seq=42 applied=42
+2025/10/27 20:30:26 UpdatePosition applied: seq=43 applied=43
+2025/10/27 20:30:26 UpdatePosition applied: seq=44 applied=44
+2025/10/27 20:30:26 UpdatePosition applied: seq=45 applied=45
+2025/10/27 20:30:26 UpdatePosition applied: seq=46 applied=46
+2025/10/27 20:30:26 UpdatePosition applied: seq=47 applied=47
+2025/10/27 20:30:26 UpdatePosition applied: seq=48 applied=48
+2025/10/27 20:30:26 UpdatePosition applied: seq=49 applied=49
+2025/10/27 20:30:26 UpdatePosition applied: seq=50 applied=50
+2025/10/27 20:30:26 UpdatePosition applied: seq=51 applied=51
+2025/10/27 20:30:27 UpdatePosition applied: seq=52 applied=52
+2025/10/27 20:30:27 UpdatePosition applied: seq=53 applied=53
+2025/10/27 20:30:27 UpdatePosition applied: seq=54 applied=54
+2025/10/27 20:30:27 UpdatePosition applied: seq=55 applied=55
+2025/10/27 20:30:27 UpdatePosition applied: seq=56 applied=56
+2025/10/27 20:30:27 UpdatePosition applied: seq=57 applied=57
+2025/10/27 20:30:27 UpdatePosition applied: seq=58 applied=58
+2025/10/27 20:30:27 UpdatePosition applied: seq=59 applied=59
+2025/10/27 20:30:27 UpdatePosition applied: seq=60 applied=60
+2025/10/27 20:30:28 UpdatePosition applied: seq=61 applied=61
+2025/10/27 20:30:28 UpdatePosition applied: seq=62 applied=62
+2025/10/27 20:30:28 UpdatePosition applied: seq=63 applied=63
+2025/10/27 20:30:28 UpdatePosition applied: seq=64 applied=64
+2025/10/27 20:30:29 UpdatePosition applied: seq=395 applied=395
+2025/10/27 20:30:30 UpdatePosition applied: seq=396 applied=396
+2025/10/27 20:30:30 UpdatePosition applied: seq=397 applied=397
+2025/10/27 20:30:30 UpdatePosition applied: seq=398 applied=398
+2025/10/27 20:30:30 UpdatePosition applied: seq=399 applied=399
+2025/10/27 20:30:31 UpdatePosition applied: seq=400 applied=400
+2025/10/27 20:30:31 UpdatePosition applied: seq=401 applied=401
+2025/10/27 20:30:31 UpdatePosition applied: seq=402 applied=402
+2025/10/27 20:30:31 UpdatePosition applied: seq=403 applied=403
+2025/10/27 20:30:31 UpdatePosition applied: seq=404 applied=404
+2025/10/27 20:30:31 UpdatePosition applied: seq=405 applied=405
+2025/10/27 20:30:33 UpdatePosition applied: seq=65 applied=65
+2025/10/27 20:30:33 UpdatePosition applied: seq=66 applied=66
+2025/10/27 20:30:34 UpdatePosition applied: seq=67 applied=67
+2025/10/27 20:30:34 UpdatePosition applied: seq=68 applied=68
+2025/10/27 20:30:34 UpdatePosition applied: seq=69 applied=69
+2025/10/27 20:30:34 UpdatePosition applied: seq=70 applied=70
+2025/10/27 20:30:34 UpdatePosition applied: seq=71 applied=71
+2025/10/27 20:30:35 UpdatePosition applied: seq=72 applied=72
+2025/10/27 20:30:35 UpdatePosition applied: seq=73 applied=73
+2025/10/27 20:30:35 UpdatePosition applied: seq=74 applied=74
+2025/10/27 20:30:35 UpdatePosition applied: seq=75 applied=75
+2025/10/27 20:30:35 UpdatePosition applied: seq=76 applied=76
+2025/10/27 20:30:35 UpdatePosition applied: seq=77 applied=77
+2025/10/27 20:30:35 UpdatePosition applied: seq=78 applied=78
+2025/10/27 20:30:35 UpdatePosition applied: seq=79 applied=79
+2025/10/27 20:30:35 UpdatePosition applied: seq=80 applied=80
+2025/10/27 20:30:35 UpdatePosition applied: seq=81 applied=81
+2025/10/27 20:30:35 UpdatePosition applied: seq=82 applied=82
+2025/10/27 20:30:36 UpdatePosition applied: seq=83 applied=83
+2025/10/27 20:30:36 UpdatePosition applied: seq=84 applied=84
+2025/10/27 20:30:36 UpdatePosition applied: seq=85 applied=85
+2025/10/27 20:30:36 UpdatePosition applied: seq=86 applied=86
+2025/10/27 20:30:37 UpdatePosition applied: seq=87 applied=87
+2025/10/27 20:30:37 UpdatePosition applied: seq=88 applied=88
+2025/10/27 20:30:37 UpdatePosition applied: seq=89 applied=89
+2025/10/27 20:30:38 UpdatePosition applied: seq=90 applied=90
+2025/10/27 20:30:38 UpdatePosition applied: seq=91 applied=91
+2025/10/27 20:30:38 UpdatePosition applied: seq=92 applied=92
+2025/10/27 20:30:38 UpdatePosition applied: seq=93 applied=93
+2025/10/27 20:30:38 UpdatePosition applied: seq=94 applied=94
+2025/10/27 20:30:38 UpdatePosition applied: seq=95 applied=95
+2025/10/27 20:30:38 UpdatePosition applied: seq=96 applied=96
+2025/10/27 20:30:38 UpdatePosition applied: seq=97 applied=97
+2025/10/27 20:30:38 UpdatePosition applied: seq=98 applied=98
+2025/10/27 20:30:38 UpdatePosition applied: seq=99 applied=99
+2025/10/27 20:30:39 UpdatePosition applied: seq=100 applied=100
+2025/10/27 20:30:42 UpdatePosition applied: seq=101 applied=101
+2025/10/27 20:30:42 UpdatePosition applied: seq=102 applied=102
+2025/10/27 20:30:42 UpdatePosition applied: seq=103 applied=103
+2025/10/27 20:30:42 UpdatePosition applied: seq=104 applied=104
+2025/10/27 20:30:42 UpdatePosition applied: seq=105 applied=105
+2025/10/27 20:30:42 UpdatePosition applied: seq=106 applied=106
+2025/10/27 20:30:42 UpdatePosition applied: seq=107 applied=107
+2025/10/27 20:30:42 UpdatePosition applied: seq=108 applied=108
+2025/10/27 20:30:42 UpdatePosition applied: seq=109 applied=109
+2025/10/27 20:30:42 UpdatePosition applied: seq=110 applied=110
+2025/10/27 20:30:43 UpdatePosition applied: seq=111 applied=111
+2025/10/27 20:31:01 Criado: Username=blablo
+ pos=(1,1) ID=2
+2025/10/27 20:31:01 Buscado: Username = blablo
+ pos=(1,1)
+2025/10/27 20:31:01 Todos os usuários:
+2025/10/27 20:31:01   - Username = bruno
+ pos=(52,10)
+2025/10/27 20:31:01   - Username = blablo
+ pos=(1,1)
+2025/10/27 20:31:03 UpdatePosition applied: seq=1 applied=111
+2025/10/27 20:31:03 UpdatePosition applied: seq=2 applied=111
+2025/10/27 20:31:03 UpdatePosition applied: seq=3 applied=111
+2025/10/27 20:31:03 UpdatePosition applied: seq=4 applied=111
+2025/10/27 20:31:04 UpdatePosition applied: seq=5 applied=111
+2025/10/27 20:31:04 UpdatePosition applied: seq=6 applied=111
+2025/10/27 20:31:04 UpdatePosition applied: seq=7 applied=111
+2025/10/27 20:31:05 UpdatePosition applied: seq=8 applied=111
+2025/10/27 20:31:06 UpdatePosition applied: seq=9 applied=111
+2025/10/27 20:31:06 UpdatePosition applied: seq=10 applied=111
+2025/10/27 20:31:07 UpdatePosition applied: seq=11 applied=111
+2025/10/27 20:31:07 UpdatePosition applied: seq=12 applied=111
+2025/10/27 20:31:07 UpdatePosition applied: seq=13 applied=111
+2025/10/27 20:31:07 UpdatePosition applied: seq=14 applied=111
+2025/10/27 20:31:07 UpdatePosition applied: seq=15 applied=111
+2025/10/27 20:31:07 UpdatePosition applied: seq=16 applied=111
+2025/10/27 20:31:08 UpdatePosition applied: seq=17 applied=111
+2025/10/27 20:31:08 UpdatePosition applied: seq=18 applied=111
+2025/10/27 20:31:08 UpdatePosition applied: seq=19 applied=111
+2025/10/27 20:31:08 UpdatePosition applied: seq=20 applied=111
+2025/10/27 20:31:09 UpdatePosition applied: seq=21 applied=111
+2025/10/27 20:31:09 UpdatePosition applied: seq=22 applied=111
+2025/10/27 20:31:09 UpdatePosition applied: seq=23 applied=111
+2025/10/27 20:31:09 UpdatePosition applied: seq=24 applied=111
+2025/10/27 20:31:10 UpdatePosition applied: seq=25 applied=111
+2025/10/27 20:31:10 UpdatePosition applied: seq=26 applied=111
+2025/10/27 20:31:10 UpdatePosition applied: seq=27 applied=111
+2025/10/27 20:31:10 UpdatePosition applied: seq=28 applied=111
+2025/10/27 20:31:10 UpdatePosition applied: seq=29 applied=111
+2025/10/27 20:31:10 UpdatePosition applied: seq=30 applied=111
+2025/10/27 20:31:10 UpdatePosition applied: seq=31 applied=111
+2025/10/27 20:31:10 UpdatePosition applied: seq=32 applied=111
+2025/10/27 20:31:11 UpdatePosition applied: seq=33 applied=111
+2025/10/27 20:31:11 UpdatePosition applied: seq=34 applied=111
+2025/10/27 20:31:11 UpdatePosition applied: seq=35 applied=111
+2025/10/27 20:31:11 UpdatePosition applied: seq=36 applied=111
+2025/10/27 20:31:11 UpdatePosition applied: seq=37 applied=111
+2025/10/27 20:31:11 UpdatePosition applied: seq=38 applied=111
+2025/10/27 20:31:11 UpdatePosition applied: seq=39 applied=111
+2025/10/27 20:31:11 UpdatePosition applied: seq=40 applied=111
+2025/10/27 20:31:11 UpdatePosition applied: seq=41 applied=111
+2025/10/27 20:31:11 UpdatePosition applied: seq=42 applied=111
+2025/10/27 20:31:11 UpdatePosition applied: seq=43 applied=111
+2025/10/27 20:31:11 UpdatePosition applied: seq=44 applied=111
+2025/10/27 20:31:11 UpdatePosition applied: seq=45 applied=111
+2025/10/27 20:31:11 UpdatePosition applied: seq=46 applied=111
+2025/10/27 20:31:11 UpdatePosition applied: seq=47 applied=111
+2025/10/27 20:31:11 UpdatePosition applied: seq=48 applied=111
+2025/10/27 20:31:11 UpdatePosition applied: seq=49 applied=111
+2025/10/27 20:31:11 UpdatePosition applied: seq=50 applied=111
+2025/10/27 20:31:11 UpdatePosition applied: seq=51 applied=111
+2025/10/27 20:31:11 UpdatePosition applied: seq=52 applied=111
+2025/10/27 20:31:11 UpdatePosition applied: seq=53 applied=111
+2025/10/27 20:31:11 UpdatePosition applied: seq=54 applied=111
+2025/10/27 20:31:11 UpdatePosition applied: seq=55 applied=111
+2025/10/27 20:31:11 UpdatePosition applied: seq=56 applied=111
+2025/10/27 20:31:11 UpdatePosition applied: seq=57 applied=111
+2025/10/27 20:31:11 UpdatePosition applied: seq=58 applied=111
+2025/10/27 20:31:11 UpdatePosition applied: seq=59 applied=111
+2025/10/27 20:31:12 UpdatePosition applied: seq=60 applied=111
+2025/10/27 20:31:12 UpdatePosition applied: seq=61 applied=111
+2025/10/27 20:31:12 UpdatePosition applied: seq=62 applied=111
+2025/10/27 20:31:12 UpdatePosition applied: seq=63 applied=111
+2025/10/27 20:31:12 UpdatePosition applied: seq=64 applied=111
+2025/10/27 20:31:12 UpdatePosition applied: seq=65 applied=111
+2025/10/27 20:31:13 UpdatePosition applied: seq=66 applied=111
+2025/10/27 20:31:13 UpdatePosition applied: seq=67 applied=111
+2025/10/27 20:31:14 UpdatePosition applied: seq=68 applied=111
+2025/10/27 20:31:14 UpdatePosition applied: seq=69 applied=111
+2025/10/27 20:31:15 UpdatePosition applied: seq=70 applied=111
+2025/10/27 20:31:16 UpdatePosition applied: seq=71 applied=111
+2025/10/27 20:31:16 UpdatePosition applied: seq=72 applied=111
+2025/10/27 20:31:16 UpdatePosition applied: seq=73 applied=111
+2025/10/27 20:31:17 UpdatePosition applied: seq=74 applied=111
+2025/10/27 20:31:18 UpdatePosition applied: seq=75 applied=111
+2025/10/27 20:31:18 UpdatePosition applied: seq=76 applied=111
+2025/10/27 20:31:18 UpdatePosition applied: seq=77 applied=111
+2025/10/27 20:31:19 UpdatePosition applied: seq=78 applied=111
+2025/10/27 20:31:19 UpdatePosition applied: seq=79 applied=111
+2025/10/27 20:31:19 UpdatePosition applied: seq=80 applied=111
+2025/10/27 20:31:19 UpdatePosition applied: seq=81 applied=111
+2025/10/27 20:31:20 UpdatePosition applied: seq=82 applied=111
+2025/10/27 20:31:20 UpdatePosition applied: seq=83 applied=111
+2025/10/27 20:31:20 UpdatePosition applied: seq=84 applied=111
+2025/10/27 20:31:20 UpdatePosition applied: seq=85 applied=111
+2025/10/27 20:31:20 UpdatePosition applied: seq=86 applied=111
+2025/10/27 20:31:20 UpdatePosition applied: seq=87 applied=111
+2025/10/27 20:31:20 UpdatePosition applied: seq=88 applied=111
+2025/10/27 20:31:20 UpdatePosition applied: seq=89 applied=111
+2025/10/27 20:31:20 UpdatePosition applied: seq=90 applied=111
+2025/10/27 20:31:20 UpdatePosition applied: seq=91 applied=111
+2025/10/27 20:31:20 UpdatePosition applied: seq=92 applied=111
+2025/10/27 20:31:20 UpdatePosition applied: seq=93 applied=111
+2025/10/27 20:31:20 UpdatePosition applied: seq=94 applied=111
+2025/10/27 20:31:20 UpdatePosition applied: seq=95 applied=111
+2025/10/27 20:31:20 UpdatePosition applied: seq=96 applied=111
+2025/10/27 20:31:20 UpdatePosition applied: seq=97 applied=111
+2025/10/27 20:31:20 UpdatePosition applied: seq=98 applied=111
+2025/10/27 20:31:20 UpdatePosition applied: seq=99 applied=111
+2025/10/27 20:31:20 UpdatePosition applied: seq=100 applied=111
+2025/10/27 20:31:20 UpdatePosition applied: seq=101 applied=111
+2025/10/27 20:31:20 UpdatePosition applied: seq=102 applied=111
+2025/10/27 20:31:20 UpdatePosition applied: seq=103 applied=111
+2025/10/27 20:31:20 UpdatePosition applied: seq=104 applied=111
+2025/10/27 20:31:20 UpdatePosition applied: seq=105 applied=111
+2025/10/27 20:31:20 UpdatePosition applied: seq=106 applied=111
+2025/10/27 20:31:20 UpdatePosition applied: seq=107 applied=111
+2025/10/27 20:31:20 UpdatePosition applied: seq=108 applied=111
+2025/10/27 20:31:20 UpdatePosition applied: seq=109 applied=111
+2025/10/27 20:31:20 UpdatePosition applied: seq=110 applied=111
+2025/10/27 20:31:20 UpdatePosition applied: seq=111 applied=111
+2025/10/27 20:31:21 UpdatePosition applied: seq=112 applied=112
+2025/10/27 20:31:21 UpdatePosition applied: seq=113 applied=113
+2025/10/27 20:31:21 UpdatePosition applied: seq=114 applied=114
+2025/10/27 20:31:21 UpdatePosition applied: seq=115 applied=115
+2025/10/27 20:31:21 UpdatePosition applied: seq=116 applied=116
+2025/10/27 20:31:21 UpdatePosition applied: seq=117 applied=117
+2025/10/27 20:31:21 UpdatePosition applied: seq=118 applied=118
+2025/10/27 20:31:21 UpdatePosition applied: seq=119 applied=119
+2025/10/27 20:31:21 UpdatePosition applied: seq=120 applied=120
+2025/10/27 20:31:21 UpdatePosition applied: seq=121 applied=121
+2025/10/27 20:31:21 UpdatePosition applied: seq=122 applied=122
+2025/10/27 20:31:21 UpdatePosition applied: seq=123 applied=123
+2025/10/27 20:31:21 UpdatePosition applied: seq=124 applied=124
+2025/10/27 20:31:22 UpdatePosition applied: seq=125 applied=125
+2025/10/27 20:31:22 UpdatePosition applied: seq=126 applied=126
+2025/10/27 20:31:22 UpdatePosition applied: seq=127 applied=127
+2025/10/27 20:31:22 UpdatePosition applied: seq=128 applied=128
+2025/10/27 20:31:23 UpdatePosition applied: seq=129 applied=129
+2025/10/27 20:31:23 UpdatePosition applied: seq=130 applied=130
+2025/10/27 20:31:23 UpdatePosition applied: seq=131 applied=131
+2025/10/27 20:31:23 UpdatePosition applied: seq=132 applied=132
+2025/10/27 20:31:23 UpdatePosition applied: seq=133 applied=133
+2025/10/27 20:31:24 UpdatePosition applied: seq=134 applied=134
+2025/10/27 20:31:24 UpdatePosition applied: seq=135 applied=135
+2025/10/27 20:31:24 UpdatePosition applied: seq=136 applied=136
+2025/10/27 20:31:24 UpdatePosition applied: seq=137 applied=137
+2025/10/27 20:31:25 UpdatePosition applied: seq=138 applied=138
+2025/10/27 20:31:26 UpdatePosition applied: seq=406 applied=406
+2025/10/27 20:31:27 UpdatePosition applied: seq=407 applied=407
+2025/10/27 20:31:27 UpdatePosition applied: seq=408 applied=408
+2025/10/27 20:31:27 UpdatePosition applied: seq=409 applied=409
+2025/10/27 20:31:27 UpdatePosition applied: seq=410 applied=410
+2025/10/27 20:31:28 UpdatePosition applied: seq=411 applied=411
+2025/10/27 20:31:28 UpdatePosition applied: seq=412 applied=412
+2025/10/27 20:31:28 UpdatePosition applied: seq=413 applied=413
+2025/10/27 20:31:28 UpdatePosition applied: seq=414 applied=414
+2025/10/27 20:31:28 UpdatePosition applied: seq=415 applied=415
+2025/10/27 20:31:28 UpdatePosition applied: seq=416 applied=416
+2025/10/27 20:31:29 UpdatePosition applied: seq=417 applied=417
+2025/10/27 20:31:29 UpdatePosition applied: seq=418 applied=418
+2025/10/27 20:31:29 UpdatePosition applied: seq=419 applied=419
+2025/10/27 20:31:29 UpdatePosition applied: seq=420 applied=420
+2025/10/27 20:31:29 UpdatePosition applied: seq=421 applied=421
+2025/10/27 20:31:30 UpdatePosition applied: seq=422 applied=422
+2025/10/27 20:31:30 UpdatePosition applied: seq=423 applied=423
+2025/10/27 20:31:30 UpdatePosition applied: seq=424 applied=424
+2025/10/27 20:31:30 UpdatePosition applied: seq=425 applied=425
+2025/10/27 20:31:30 UpdatePosition applied: seq=426 applied=426
+2025/10/27 20:31:30 UpdatePosition applied: seq=427 applied=427
+2025/10/27 20:31:31 UpdatePosition applied: seq=428 applied=428
+2025/10/27 20:31:31 UpdatePosition applied: seq=429 applied=429
+2025/10/27 20:31:31 UpdatePosition applied: seq=430 applied=430
+2025/10/27 20:31:31 UpdatePosition applied: seq=431 applied=431
+2025/10/27 20:31:31 UpdatePosition applied: seq=432 applied=432
+2025/10/27 20:31:31 UpdatePosition applied: seq=433 applied=433
+2025/10/27 20:31:32 UpdatePosition applied: seq=434 applied=434
+2025/10/27 20:31:32 UpdatePosition applied: seq=435 applied=435
+2025/10/27 20:31:32 UpdatePosition applied: seq=436 applied=436
+2025/10/27 20:31:32 UpdatePosition applied: seq=437 applied=437
+2025/10/27 20:31:32 UpdatePosition applied: seq=438 applied=438
+2025/10/27 20:31:32 UpdatePosition applied: seq=439 applied=439
+2025/10/27 20:31:32 UpdatePosition applied: seq=440 applied=440
+2025/10/27 20:31:33 UpdatePosition applied: seq=441 applied=441
+2025/10/27 20:31:33 UpdatePosition applied: seq=442 applied=442
+2025/10/27 20:31:33 UpdatePosition applied: seq=443 applied=443
+2025/10/27 20:31:34 UpdatePosition applied: seq=444 applied=444
+2025/10/27 20:31:34 UpdatePosition applied: seq=445 applied=445
+2025/10/27 20:31:34 UpdatePosition applied: seq=446 applied=446
+2025/10/27 20:31:34 UpdatePosition applied: seq=447 applied=447
+2025/10/27 20:31:34 UpdatePosition applied: seq=448 applied=448
+2025/10/27 20:31:34 UpdatePosition applied: seq=449 applied=449
+2025/10/27 20:31:34 UpdatePosition applied: seq=450 applied=450
+2025/10/27 20:31:34 UpdatePosition applied: seq=451 applied=451
+2025/10/27 20:31:34 UpdatePosition applied: seq=452 applied=452
+2025/10/27 20:31:34 UpdatePosition applied: seq=453 applied=453
+2025/10/27 20:31:34 UpdatePosition applied: seq=454 applied=454
+2025/10/27 20:31:34 UpdatePosition applied: seq=455 applied=455
+2025/10/27 20:31:34 UpdatePosition applied: seq=456 applied=456
+2025/10/27 20:31:35 UpdatePosition applied: seq=457 applied=457
+2025/10/27 20:31:35 UpdatePosition applied: seq=458 applied=458
+2025/10/27 20:31:35 UpdatePosition applied: seq=459 applied=459
+2025/10/27 20:31:35 UpdatePosition applied: seq=460 applied=460
+2025/10/27 20:31:35 UpdatePosition applied: seq=461 applied=461
+2025/10/27 20:31:35 UpdatePosition applied: seq=462 applied=462
+2025/10/27 20:31:36 UpdatePosition applied: seq=463 applied=463
+2025/10/27 20:31:38 UpdatePosition applied: seq=139 applied=139
+2025/10/27 20:31:38 UpdatePosition applied: seq=140 applied=140
+2025/10/27 20:31:39 UpdatePosition applied: seq=141 applied=141
+2025/10/27 20:31:39 UpdatePosition applied: seq=142 applied=142
+2025/10/27 20:31:39 UpdatePosition applied: seq=143 applied=143
+2025/10/27 20:31:39 UpdatePosition applied: seq=144 applied=144
+2025/10/27 20:31:39 UpdatePosition applied: seq=145 applied=145
+2025/10/27 20:31:39 UpdatePosition applied: seq=146 applied=146
+2025/10/27 20:31:39 UpdatePosition applied: seq=147 applied=147
+2025/10/27 20:31:39 UpdatePosition applied: seq=148 applied=148
+2025/10/27 20:31:39 UpdatePosition applied: seq=149 applied=149
+2025/10/27 20:31:39 UpdatePosition applied: seq=150 applied=150
+2025/10/27 20:31:40 UpdatePosition applied: seq=151 applied=151
+2025/10/27 20:31:40 UpdatePosition applied: seq=152 applied=152
+2025/10/27 20:31:40 UpdatePosition applied: seq=153 applied=153
+2025/10/27 20:31:40 UpdatePosition applied: seq=154 applied=154
+2025/10/27 20:31:40 UpdatePosition applied: seq=155 applied=155
+2025/10/27 20:31:40 UpdatePosition applied: seq=156 applied=156
+2025/10/27 20:31:40 UpdatePosition applied: seq=157 applied=157
+2025/10/27 20:31:40 UpdatePosition applied: seq=158 applied=158
+2025/10/27 20:31:40 UpdatePosition applied: seq=159 applied=159
+2025/10/27 20:31:40 UpdatePosition applied: seq=160 applied=160
+2025/10/27 20:31:40 UpdatePosition applied: seq=161 applied=161
+2025/10/27 20:31:40 UpdatePosition applied: seq=162 applied=162
+2025/10/27 20:31:41 UpdatePosition applied: seq=163 applied=163
+2025/10/27 20:31:41 UpdatePosition applied: seq=164 applied=164
+2025/10/27 20:31:41 UpdatePosition applied: seq=165 applied=165
+2025/10/27 20:31:41 UpdatePosition applied: seq=166 applied=166
+2025/10/27 20:31:41 UpdatePosition applied: seq=167 applied=167
+2025/10/27 20:31:41 UpdatePosition applied: seq=168 applied=168
+2025/10/27 20:31:41 UpdatePosition applied: seq=169 applied=169
+2025/10/27 20:31:41 UpdatePosition applied: seq=170 applied=170
+2025/10/27 20:31:41 UpdatePosition applied: seq=171 applied=171
+2025/10/27 20:31:41 UpdatePosition applied: seq=172 applied=172
+2025/10/27 20:31:41 UpdatePosition applied: seq=173 applied=173
+2025/10/27 20:31:41 UpdatePosition applied: seq=174 applied=174
+2025/10/27 20:31:41 UpdatePosition applied: seq=175 applied=175
+2025/10/27 20:31:41 UpdatePosition applied: seq=176 applied=176
+2025/10/27 20:31:41 UpdatePosition applied: seq=177 applied=177
+2025/10/27 20:31:41 UpdatePosition applied: seq=178 applied=178
+2025/10/27 20:31:42 UpdatePosition applied: seq=179 applied=179
+2025/10/27 20:31:42 UpdatePosition applied: seq=180 applied=180
+2025/10/27 20:31:42 UpdatePosition applied: seq=181 applied=181
+2025/10/27 20:31:42 UpdatePosition applied: seq=182 applied=182
+2025/10/27 20:31:42 UpdatePosition applied: seq=183 applied=183
+2025/10/27 20:31:42 UpdatePosition applied: seq=184 applied=184
+2025/10/27 20:31:42 UpdatePosition applied: seq=185 applied=185
+2025/10/27 20:31:42 UpdatePosition applied: seq=186 applied=186
+2025/10/27 20:31:43 UpdatePosition applied: seq=187 applied=187
+2025/10/27 20:31:43 UpdatePosition applied: seq=188 applied=188
+2025/10/27 20:31:43 UpdatePosition applied: seq=189 applied=189
+2025/10/27 20:31:43 UpdatePosition applied: seq=190 applied=190
+2025/10/27 20:31:43 UpdatePosition applied: seq=191 applied=191
+2025/10/27 20:31:43 UpdatePosition applied: seq=192 applied=192
+2025/10/27 20:31:43 UpdatePosition applied: seq=193 applied=193
+2025/10/27 20:31:43 UpdatePosition applied: seq=194 applied=194
+2025/10/27 20:31:43 UpdatePosition applied: seq=195 applied=195
+2025/10/27 20:31:43 UpdatePosition applied: seq=196 applied=196
+2025/10/27 20:31:43 UpdatePosition applied: seq=197 applied=197
+2025/10/27 20:31:43 UpdatePosition applied: seq=198 applied=198
+2025/10/27 20:31:44 UpdatePosition applied: seq=199 applied=199
+2025/10/27 20:31:44 UpdatePosition applied: seq=200 applied=200
+2025/10/27 20:31:45 UpdatePosition applied: seq=464 applied=464
+2025/10/27 20:31:45 UpdatePosition applied: seq=465 applied=465
+2025/10/27 20:31:46 UpdatePosition applied: seq=466 applied=466
+2025/10/27 20:31:46 UpdatePosition applied: seq=467 applied=467
+2025/10/27 20:31:46 UpdatePosition applied: seq=468 applied=468
+2025/10/27 20:31:46 UpdatePosition applied: seq=469 applied=469
+2025/10/27 20:31:46 UpdatePosition applied: seq=470 applied=470
+2025/10/27 20:31:46 UpdatePosition applied: seq=471 applied=471
+2025/10/27 20:31:46 UpdatePosition applied: seq=472 applied=472
+2025/10/27 20:31:46 UpdatePosition applied: seq=473 applied=473
+2025/10/27 20:31:47 UpdatePosition applied: seq=201 applied=201
+2025/10/27 20:31:48 UpdatePosition applied: seq=202 applied=202
+2025/10/27 20:31:48 UpdatePosition applied: seq=203 applied=203
+2025/10/27 20:31:48 UpdatePosition applied: seq=204 applied=204
+2025/10/27 20:31:49 UpdatePosition applied: seq=205 applied=205
+2025/10/27 20:31:49 UpdatePosition applied: seq=206 applied=206
+2025/10/27 20:31:49 UpdatePosition applied: seq=207 applied=207
+2025/10/27 20:31:49 UpdatePosition applied: seq=208 applied=208
+2025/10/27 20:31:49 UpdatePosition applied: seq=209 applied=209
+2025/10/27 20:31:49 UpdatePosition applied: seq=210 applied=210
+2025/10/27 20:31:49 UpdatePosition applied: seq=211 applied=211
+2025/10/27 20:31:49 UpdatePosition applied: seq=212 applied=212
+2025/10/27 20:31:49 UpdatePosition applied: seq=213 applied=213
+2025/10/27 20:31:49 UpdatePosition applied: seq=214 applied=214
+2025/10/27 20:31:49 UpdatePosition applied: seq=215 applied=215
+2025/10/27 20:31:49 UpdatePosition applied: seq=216 applied=216
+2025/10/27 20:31:49 UpdatePosition applied: seq=217 applied=217
+2025/10/27 20:31:50 UpdatePosition applied: seq=218 applied=218
+2025/10/27 20:31:50 UpdatePosition applied: seq=219 applied=219
+2025/10/27 20:31:50 UpdatePosition applied: seq=220 applied=220
+2025/10/27 20:31:50 UpdatePosition applied: seq=221 applied=221
+2025/10/27 20:31:51 UpdatePosition applied: seq=222 applied=222
+2025/10/27 20:37:45 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:45 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:46 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:46 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:46 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:46 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:46 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:46 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:46 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:46 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:46 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:46 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:46 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:46 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:46 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:46 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:46 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:46 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:46 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:46 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:46 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:46 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:47 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:47 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:47 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:47 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:47 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:47 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:47 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:47 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:47 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:47 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:47 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:47 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:47 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:47 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:47 RPC erro(UpdatePosition) seq=223: connection is shut down
+2025/10/27 20:37:47 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:47 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:47 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:47 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:47 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:47 RPC erro(UpdatePosition) seq=224: connection is shut down
+2025/10/27 20:37:47 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:48 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:48 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:48 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:48 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:48 RPC erro(UpdatePosition) seq=225: connection is shut down
+2025/10/27 20:37:48 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:48 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:48 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:48 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:48 RPC erro(UpdatePosition) seq=226: connection is shut down
+2025/10/27 20:37:48 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:48 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:48 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:48 RPC erro(UpdatePosition) seq=227: connection is shut down
+2025/10/27 20:37:48 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:48 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:48 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:48 RPC erro(UpdatePosition) seq=228: connection is shut down
+2025/10/27 20:37:48 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:48 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:48 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:48 RPC erro(UpdatePosition) seq=229: connection is shut down
+2025/10/27 20:37:48 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:48 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:48 RPC erro(UpdatePosition) seq=230: connection is shut down
+2025/10/27 20:37:48 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:49 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:49 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:49 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:49 RPC erro(UpdatePosition) seq=231: connection is shut down
+2025/10/27 20:37:49 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:49 RPC erro(UpdatePosition) seq=232: connection is shut down
+2025/10/27 20:37:49 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:49 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:49 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:49 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:49 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:49 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:49 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:49 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:49 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:49 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:49 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:49 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:49 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:49 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:49 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:49 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:50 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:50 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:50 RPC erro(UpdatePosition) seq=233: connection is shut down
+2025/10/27 20:37:50 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:50 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:50 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:50 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:50 RPC erro(UpdatePosition) seq=234: connection is shut down
+2025/10/27 20:37:50 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:50 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:50 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:50 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:50 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:50 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:50 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:50 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:50 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:50 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:50 RPC erro(UpdatePosition) seq=235: connection is shut down
+2025/10/27 20:37:50 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:50 RPC erro(UpdatePosition) seq=236: connection is shut down
+2025/10/27 20:37:50 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:50 RPC erro(UpdatePosition) seq=237: connection is shut down
+2025/10/27 20:37:50 RPC erro(UpdatePosition) seq=238: connection is shut down
+2025/10/27 20:37:50 RPC erro(UpdatePosition) seq=239: connection is shut down
+2025/10/27 20:37:50 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:50 RPC erro(UpdatePosition) seq=240: connection is shut down
+2025/10/27 20:37:50 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:50 RPC erro(UpdatePosition) seq=241: connection is shut down
+2025/10/27 20:37:51 RPC erro(UpdatePosition) seq=242: connection is shut down
+2025/10/27 20:37:51 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:51 RPC erro(UpdatePosition) seq=243: connection is shut down
+2025/10/27 20:37:51 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:51 RPC erro(UpdatePosition) seq=244: connection is shut down
+2025/10/27 20:37:51 RPC erro(UpdatePosition) seq=245: connection is shut down
+2025/10/27 20:37:51 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:51 RPC erro(UpdatePosition) seq=246: connection is shut down
+2025/10/27 20:37:51 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:51 RPC erro(UpdatePosition) seq=247: connection is shut down
+2025/10/27 20:37:51 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:51 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:51 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:51 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:51 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:51 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:51 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:51 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:51 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:51 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:51 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:51 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:52 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:52 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:52 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:52 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:52 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:52 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:52 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:52 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:52 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:52 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:53 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:53 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:53 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:53 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:53 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:53 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:53 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:53 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:53 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:53 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:54 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:54 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:54 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:54 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:54 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:54 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:54 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:54 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:54 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:54 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:55 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:55 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:55 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:55 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:55 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:55 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:55 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:55 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:55 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:55 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:56 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:56 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:56 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:56 RPC erro(UpdatePosition) seq=474: connection is shut down
+2025/10/27 20:37:56 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:56 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:56 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:56 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:56 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:56 RPC erro(UpdatePosition) seq=475: connection is shut down
+2025/10/27 20:37:56 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:56 RPC erro(UpdatePosition) seq=476: connection is shut down
+2025/10/27 20:37:56 RPC erro(UpdatePosition) seq=477: connection is shut down
+2025/10/27 20:37:56 RPC erro(UpdatePosition) seq=478: connection is shut down
+2025/10/27 20:37:56 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:56 RPC erro(UpdatePosition) seq=479: connection is shut down
+2025/10/27 20:37:56 RPC erro(UpdatePosition) seq=480: connection is shut down
+2025/10/27 20:37:56 RPC erro(UpdatePosition) seq=481: connection is shut down
+2025/10/27 20:37:57 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:57 RPC erro(UpdatePosition) seq=482: connection is shut down
+2025/10/27 20:37:57 RPC erro(UpdatePosition) seq=483: connection is shut down
+2025/10/27 20:37:57 RPC erro(UpdatePosition) seq=484: connection is shut down
+2025/10/27 20:37:57 RPC erro(UpdatePosition) seq=485: connection is shut down
+2025/10/27 20:37:57 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:57 RPC erro(UpdatePosition) seq=486: connection is shut down
+2025/10/27 20:37:57 RPC erro(UpdatePosition) seq=487: connection is shut down
+2025/10/27 20:37:57 RPC erro(UpdatePosition) seq=488: connection is shut down
+2025/10/27 20:37:57 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:57 RPC erro(UpdatePosition) seq=489: connection is shut down
+2025/10/27 20:37:57 RPC erro(UpdatePosition) seq=490: connection is shut down
+2025/10/27 20:37:57 RPC erro(UpdatePosition) seq=491: connection is shut down
+2025/10/27 20:37:57 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:57 RPC erro(UpdatePosition) seq=492: connection is shut down
+2025/10/27 20:37:57 RPC erro(UpdatePosition) seq=493: connection is shut down
+2025/10/27 20:37:57 RPC erro(UpdatePosition) seq=494: connection is shut down
+2025/10/27 20:37:57 RPC erro(UpdatePosition) seq=495: connection is shut down
+2025/10/27 20:37:57 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:57 RPC erro(UpdatePosition) seq=496: connection is shut down
+2025/10/27 20:37:57 RPC erro(UpdatePosition) seq=497: connection is shut down
+2025/10/27 20:37:57 RPC erro(UpdatePosition) seq=498: connection is shut down
+2025/10/27 20:37:57 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:57 RPC erro(UpdatePosition) seq=499: connection is shut down
+2025/10/27 20:37:57 RPC erro(UpdatePosition) seq=500: connection is shut down
+2025/10/27 20:37:57 RPC erro(UpdatePosition) seq=501: connection is shut down
+2025/10/27 20:37:57 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:57 RPC erro(UpdatePosition) seq=502: connection is shut down
+2025/10/27 20:37:57 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:57 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:57 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:58 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:58 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:58 RPC erro(UpdatePosition) seq=503: connection is shut down
+2025/10/27 20:37:58 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:58 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:58 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:58 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:58 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:58 RPC erro(UpdatePosition) seq=504: connection is shut down
+2025/10/27 20:37:58 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:58 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:58 RPC erro(UpdatePosition) seq=505: connection is shut down
+2025/10/27 20:37:58 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:59 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:59 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:59 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:59 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:59 RPC erro(UpdatePosition) seq=506: connection is shut down
+2025/10/27 20:37:59 RPC erro(UpdatePosition) seq=507: connection is shut down
+2025/10/27 20:37:59 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:59 RPC erro(UpdatePosition) seq=508: connection is shut down
+2025/10/27 20:37:59 RPC erro(UpdatePosition) seq=509: connection is shut down
+2025/10/27 20:37:59 RPC erro(UpdatePosition) seq=510: connection is shut down
+2025/10/27 20:37:59 RPC erro(UpdatePosition) seq=511: connection is shut down
+2025/10/27 20:37:59 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:59 RPC erro(UpdatePosition) seq=512: connection is shut down
+2025/10/27 20:37:59 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:59 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:59 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:37:59 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:38:00 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:38:00 RPC erro(UpdatePosition) seq=513: connection is shut down
+2025/10/27 20:38:00 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:38:00 RPC erro(UpdatePosition) seq=514: connection is shut down
+2025/10/27 20:38:00 RPC erro(UpdatePosition) seq=515: connection is shut down
+2025/10/27 20:38:00 RPC erro(UpdatePosition) seq=516: connection is shut down
+2025/10/27 20:38:00 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:38:00 RPC erro(UpdatePosition) seq=517: connection is shut down
+2025/10/27 20:38:00 RPC erro(UpdatePosition) seq=518: connection is shut down
+2025/10/27 20:38:00 RPC erro(UpdatePosition) seq=519: connection is shut down
+2025/10/27 20:38:00 RPC erro(UpdatePosition) seq=520: connection is shut down
+2025/10/27 20:38:00 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:38:00 RPC erro(UpdatePosition) seq=521: connection is shut down
+2025/10/27 20:38:00 RPC erro(UpdatePosition) seq=522: connection is shut down
+2025/10/27 20:38:00 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:38:00 RPC erro(UpdatePosition) seq=523: connection is shut down
+2025/10/27 20:38:00 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:38:00 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:38:00 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:38:00 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:38:00 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:38:00 RPC erro(UpdatePosition) seq=524: connection is shut down
+2025/10/27 20:38:00 RPC erro(UpdatePosition) seq=525: connection is shut down
+2025/10/27 20:38:00 RPC erro(UpdatePosition) seq=526: connection is shut down
+2025/10/27 20:38:01 RPC erro(UpdatePosition) seq=527: connection is shut down
+2025/10/27 20:38:01 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:38:01 RPC erro(UpdatePosition) seq=528: connection is shut down
+2025/10/27 20:38:01 RPC erro(UpdatePosition) seq=529: connection is shut down
+2025/10/27 20:38:01 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:38:01 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:44:29 Criado: Username=bruno
+ pos=(16,5) ID=1
+2025/10/27 20:44:29 Buscado: Username = bruno
+ pos=(16,5)
+2025/10/27 20:44:29 Todos os usuários:
+2025/10/27 20:44:29   - Username = bruno
+ pos=(16,5)
+2025/10/27 20:44:30 UpdatePosition applied: seq=1 applied=1
+2025/10/27 20:44:31 UpdatePosition applied: seq=2 applied=2
+2025/10/27 20:44:31 UpdatePosition applied: seq=3 applied=3
+2025/10/27 20:44:31 UpdatePosition applied: seq=4 applied=4
+2025/10/27 20:44:32 UpdatePosition applied: seq=5 applied=5
+2025/10/27 20:44:32 UpdatePosition applied: seq=6 applied=6
+2025/10/27 20:44:32 UpdatePosition applied: seq=7 applied=7
+2025/10/27 20:44:32 UpdatePosition applied: seq=8 applied=8
+2025/10/27 20:44:33 UpdatePosition applied: seq=9 applied=9
+2025/10/27 20:44:33 UpdatePosition applied: seq=10 applied=10
+2025/10/27 20:44:33 UpdatePosition applied: seq=11 applied=11
+2025/10/27 20:44:33 UpdatePosition applied: seq=12 applied=12
+2025/10/27 20:44:33 UpdatePosition applied: seq=13 applied=13
+2025/10/27 20:44:33 UpdatePosition applied: seq=14 applied=14
+2025/10/27 20:44:33 UpdatePosition applied: seq=15 applied=15
+2025/10/27 20:44:33 UpdatePosition applied: seq=16 applied=16
+2025/10/27 20:44:33 UpdatePosition applied: seq=17 applied=17
+2025/10/27 20:44:33 UpdatePosition applied: seq=18 applied=18
+2025/10/27 20:44:33 UpdatePosition applied: seq=19 applied=19
+2025/10/27 20:44:33 UpdatePosition applied: seq=20 applied=20
+2025/10/27 20:44:43 Criado: Username=blablo
+ pos=(16,5) ID=2
+2025/10/27 20:44:43 Buscado: Username = blablo
+ pos=(16,5)
+2025/10/27 20:44:43 Todos os usuários:
+2025/10/27 20:44:43   - Username = bruno
+ pos=(32,3)
+2025/10/27 20:44:43   - Username = blablo
+ pos=(16,5)
+2025/10/27 20:45:01 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:45:01 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:45:01 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:45:01 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:45:01 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:45:01 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:45:01 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:45:01 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:45:01 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:45:01 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:45:01 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:45:01 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:45:01 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:45:01 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:45:01 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:45:01 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:45:02 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:45:02 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:45:02 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:45:02 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:45:02 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:45:02 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:45:02 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:45:02 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:45:02 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:45:02 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:45:02 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:45:02 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:45:02 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:45:02 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:45:02 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:45:02 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:45:02 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:45:02 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:45:02 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:45:02 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:45:03 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:45:03 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:45:03 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:45:03 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:45:03 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:45:03 RPC erro(ListUsers): connection is shut down
+2025/10/27 20:45:03 RPC erro(ListUsers): connection is shut down

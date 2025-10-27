@@ -21,31 +21,46 @@ func personagemMover(tecla rune, jogo *Jogo) {
 		dx = 1 // Move para a direita
 	}
 
-	// Leitura e escrita do jogador a partir do map
+	// Lê posição atual do jogador sob lock curto
 	jogo.mu.Lock()
 	jogador, ok := jogo.Jogadores[jogo.localID]
 	if !ok {
 		jogador = Jogador{UltimoVisitado: Vazio}
 	}
-	nx, ny := jogador.PosX+dx, jogador.PosY+dy
+	currX, currY := jogador.PosX, jogador.PosY
+	jogo.mu.Unlock()
+
+	nx, ny := currX+dx, currY+dy
 	// Verifica se o movimento é permitido e realiza a movimentação
 	if jogoPodeMoverPara(jogo, nx, ny) {
+		// Move no estado local (jogoMoverElemento faz locking interno)
 		jogoMoverElemento(jogo, nx, ny, jogo.localID)
+
+		// Incrementa o sequence number de forma protegida e captura seu valor
+		jogo.mu.Lock()
 		jogo.seq++
-		jogo.Jogadores[jogo.localID] = jogador
+		seq := jogo.seq
+		jogo.mu.Unlock()
+
 		// Notifica o servidor fora do lock para não bloquear a UI
-		go func(id, x, y int) {
+		go func(id, x, y int, s uint64) {
 			if jogo.RPCClient == nil {
 				return
 			}
-			req := UpdatePositionRequest{ClientID: id, PosX: x, PosY: y}
-			// ignora erro, apenas loga para debug
-			if err := jogo.RPCClient.Call("UserService.UpdatePosition", &req, &struct{}{}); err != nil {
-				log.Printf("RPC erro(UpdatePosition): %v", err)
+			req := UpdatePositionRequest{ClientID: id, Seq: s, PosX: x, PosY: y}
+			var rep UpdatePositionReply
+			if err := jogo.RPCClient.Call("UserService.UpdatePosition", &req, &rep); err != nil {
+				log.Printf("RPC erro(UpdatePosition) seq=%d: %v", s, err)
+				return
 			}
-		}(jogo.localID, nx, ny)
+			// Log básico de confirmação para ajudar a debugar
+			if !rep.OK {
+				log.Printf("UpdatePosition not applied: seq=%d applied=%d OK=%v", s, rep.AppliedSeq, rep.OK)
+			} else {
+				log.Printf("UpdatePosition applied: seq=%d applied=%d", s, rep.AppliedSeq)
+			}
+		}(jogo.localID, nx, ny, seq)
 	}
-	jogo.mu.Unlock()
 }
 
 // Define o que ocorre quando o jogador pressiona a tecla de interação

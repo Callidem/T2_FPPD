@@ -71,7 +71,8 @@ func interfaceDesenharJogo(jogo *Jogo) {
 	jogo.mu.Lock()
 	for _, jogador := range jogo.Jogadores {
 		if jogador.Active {
-			interfaceDesenharElemento(jogador.PosX, jogador.PosY, Personagem)
+			// Desenha o avatar específico do jogador (rune + cor)
+			interfaceDesenharElemento(jogador.PosX, jogador.PosY, jogador.Avatar)
 		}
 	}
 	jogo.mu.Unlock()

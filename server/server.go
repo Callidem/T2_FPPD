@@ -129,7 +129,7 @@ func (s *UserService) GetUser(req *GetUserRequest, resp *User) error {
 // ListUsers: método RPC para listar todos os usuários cadastrados.
 // Retorna um slice com cópias dos Users.
 func (s *UserService) ListUsers(u User, resp *[]User) error {
-	log.Printf("[RPC] ListUsers called by %d ", u.ID)
+	//log.Printf("[RPC] ListUsers called by %d ", u.ID)
 
 	s.mu.Lock()
 	defer s.mu.Unlock()
@@ -140,7 +140,7 @@ func (s *UserService) ListUsers(u User, resp *[]User) error {
 	}
 	*resp = out
 
-	log.Printf("[RPC] ListUsers ok: count=%d", len(out))
+	//log.Printf("[RPC] ListUsers ok: count=%d", len(out))
 	return nil
 }
 

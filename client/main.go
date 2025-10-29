@@ -5,6 +5,7 @@ import (
 	"bufio"
 	"encoding/gob"
 	"fmt"
+	"strings"
 	"log"
 	"net/rpc"
 	"os"
@@ -63,7 +64,8 @@ func main() {
 	// Solicita ao usuário seu nome de usuário
 	fmt.Print("Digite seu nome de usuário: ")
 	reader := bufio.NewReader(os.Stdin)
-	username, err := reader.ReadString('\n')
+	username, _ := reader.ReadString('\n')
+	username = strings.TrimSpace(username)
 
 	fmt.Print("1 - White \n 2 - Cyan \n 3 - Red \n 4 - Green \n 5 - Yellow \n 6 - Blue \n 7 - Magenta\nEscolha a cor do seu personagem: ")
 	reader = bufio.NewReader(os.Stdin)
@@ -97,6 +99,28 @@ func main() {
 	log.Printf("Criado: Username=%s pos=(%d,%d) ID=%d\n", u.Username, u.PosX, u.PosY, u.ID)
 	jogo.localID = u.ID
 
+	// Inicializa jogador localmente para aparecer imediatamente na UI
+	avatarElem := Elemento{u.Avatar, u.PlayerColor, CorPadrao, true}
+	jogo.mu.Lock()
+	// salvamos o que havia naquela célula como UltimoVisitado
+	if u.PosY >= 0 && u.PosY < len(jogo.Mapa) && u.PosX >= 0 && u.PosX < len(jogo.Mapa[u.PosY]) {
+		ultimo := jogo.Mapa[u.PosY][u.PosX]
+		jogo.Jogadores[u.ID] = Jogador{
+			Nome:           u.Username,
+			PosX:           u.PosX,
+			PosY:           u.PosY,
+			Cor:            u.PlayerColor,
+			UltimoVisitado: ultimo,
+			Active:         true,
+			Avatar:         avatarElem,
+		}
+		jogo.Mapa[u.PosY][u.PosX] = avatarElem
+	} else {
+		// posição inválida no mapa: ainda assim criamos jogador com defaults
+		jogo.Jogadores[u.ID] = Jogador{Nome: u.Username, PosX: u.PosX, PosY: u.PosY, Cor: u.PlayerColor, Active: true, Avatar: avatarElem, UltimoVisitado: Vazio}
+	}
+	jogo.mu.Unlock()
+
 	// 2) GetUser
 	var got User
 	if err := jogo.RPCClient.Call("UserService.GetUser", &GetUserRequest{Username: u.Username}, &got); err != nil {
@@ -116,20 +140,59 @@ func main() {
 
 	// 4) Polling da posição dos jogadores
 	go func(jogo *Jogo) {
-		for {
-			ticker := time.NewTicker(100 * time.Millisecond)
-			defer ticker.Stop()
-			for range ticker.C {
-				var all []User
-				if err := jogo.RPCClient.Call("UserService.ListUsers", &struct{}{}, &all); err != nil {
-					// log but keep trying
-					log.Printf("RPC erro(ListUsers): %v", err)
-					continue
-				}
-				// Merge remote users into local jogo state (map by ID)
-				for _, ru := range all {
-					nx, ny := ru.PosX, ru.PosY
-					jogoMoverElemento(jogo, nx, ny, ru.ID)
+		ticker := time.NewTicker(100 * time.Millisecond)
+		defer ticker.Stop()
+		for range ticker.C {
+			var all []User
+			if err := jogo.RPCClient.Call("UserService.ListUsers", &struct{}{}, &all); err != nil {
+				// log but keep trying
+				log.Printf("RPC erro(ListUsers): %v", err)
+				continue
+			}
+			// Merge remote users into local jogo state (map by ID)
+			for _, ru := range all {
+				nx, ny := ru.PosX, ru.PosY
+				// Se o jogador ainda não existe localmente, inicializa corretamente
+				jogo.mu.Lock()
+				jogador, ok := jogo.Jogadores[ru.ID]
+				jogo.mu.Unlock()
+				if !ok {
+					// Cria um Elemento de avatar a partir dos dados do servidor
+					avatarElem := Elemento{ru.Avatar, ru.PlayerColor, CorPadrao, true}
+					// Protege a escrita no mapa e no map de jogadores
+					jogo.mu.Lock()
+					// Guarda o que estava naquela posição para restaurar depois
+					// (verifica limites do mapa por segurança)
+					if ny >= 0 && ny < len(jogo.Mapa) && nx >= 0 && nx < len(jogo.Mapa[ny]) {
+						ultimo := jogo.Mapa[ny][nx]
+						jogo.Jogadores[ru.ID] = Jogador{
+							Nome:           ru.Username,
+							PosX:           nx,
+							PosY:           ny,
+							Cor:            ru.PlayerColor,
+							UltimoVisitado: ultimo,
+							Active:         true,
+							Avatar:         avatarElem,
+						}
+						// Coloca o avatar no mapa
+						jogo.Mapa[ny][nx] = avatarElem
+					} else {
+						jogo.Jogadores[ru.ID] = Jogador{Nome: ru.Username, PosX: nx, PosY: ny, Cor: ru.PlayerColor, Active: true, Avatar: avatarElem, UltimoVisitado: Vazio}
+					}
+					jogo.mu.Unlock()
+				} else {
+					// Jogador já existente: move apenas se a posição mudou
+					if jogador.PosX != nx || jogador.PosY != ny {
+						jogoMoverElemento(jogo, nx, ny, ru.ID)
+					} else {
+						// Atualiza flags simples (cor/active) se necessário
+						jogo.mu.Lock()
+						j := jogo.Jogadores[ru.ID]
+						j.Active = ru.Active
+						j.Cor = ru.PlayerColor
+						jogo.Jogadores[ru.ID] = j
+						jogo.mu.Unlock()
+					}
 				}
 			}
 		}

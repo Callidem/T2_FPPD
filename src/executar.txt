@@ -1,0 +1,9 @@
+Servidor
+    cd server
+    go build -o server
+    ./server
+
+Cliente
+    cd client
+    go build -o client
+    ./client [xxx.xxx.x.xx:xxxx]
